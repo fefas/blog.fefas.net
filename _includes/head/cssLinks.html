@@ -1,0 +1,3 @@
+{% for resource in site.data.cssResources %}
+<link rel="stylesheet" type="text/css" href="{{ resource.url }}" integrity="{{ resource.integrity }}">
+{% endfor %}
