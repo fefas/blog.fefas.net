@@ -5,6 +5,9 @@
 #header .right.menu .item i {
   margin: 0;
 }
+#header .right.menu .item:last-child {
+  padding-right: 16px;
+}
 
 /* customize text color of header and content */
 #header .ui.container.text .item:not(.active) {
