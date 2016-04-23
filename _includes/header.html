@@ -1,0 +1,21 @@
+<div id=header class="ui secondary pointing menu">
+  <div class="ui text container">
+
+    {% for link in site.data.menuLinks %}
+      {% if page.permalink == link.uri %}
+        <a class="active item" href="{{ link.uri }}">{{ link.text }}</a>
+      {% else %}
+        <a class="item" href="{{ link.uri }}">{{ link.text }}</a>
+      {% endif %}
+    {% endfor %}
+
+    <div class="right menu">
+    {% for socialNetwork in site.data.socialNetworks %}
+      <a class="ui item" target="_blank" href="{{ socialNetwork.url }}">
+        <i class="{{ socialNetwork.name }} square icon"></i>
+      </a>
+    {% endfor %}
+    </div>
+
+  </div>
+</div>
