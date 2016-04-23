@@ -1,12 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
 
-    <title>Fefas.net</title>
+    <meta charset="{{ site.encoding }}">
+
+    {% include head/metaTags.html %}
+
+    <title>fefas.net</title>
+
+    {% include head/favicon.html %}
+
+    {% include head/jsLinks.html %}
+    {% include head/cssLinks.html %}
 
   </head>
 
-  <body>{{ content }}</body>
+  <body>
+
+    {% include header.html %}
+
+    <div id=content class="ui text container">{{ content }}</div>
+
+    {% include footer.html %}
+
+  </body>
 
 </html>
