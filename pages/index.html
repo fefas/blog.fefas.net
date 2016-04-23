@@ -1,0 +1,55 @@
+---
+layout: default
+permalink: /
+---
+
+<div id=intro class="ui basic segment">
+  <div class="ui grid">
+
+    <div class="six wide middle aligned column">
+      <img class="ui centered small circular image" src="{{ site.data.avatar }}">
+    </div>
+
+    <div class="ten wide middle aligned column">
+      <p>Hello World! The people call me Fefas and I'm software developer.</p>
+    </div>
+
+  </div>
+</div>
+
+<div id=posts class="ui basic segment">
+
+  <h2>Last Posts</h2>
+
+  <p>posts under development .. </p>
+
+</div>
+
+<div id=contributions class="ui basic segment">
+
+  <h2>Some Contributions</h2>
+
+  <ul class="ui list">
+  {% for item in site.data.contributions %}
+    <li>
+
+      <div class="header">
+        <a href="https://github.com/{{ item.source }}/commits?author=fefas">
+          {{ item.source }}
+        </a>
+        <a href="https://github.com/{{ item.source }}"><i class="github icon"></i></a>
+        <a href="{{ item.site }}"><i class="world icon"></i></a>
+      </div>
+
+      <div class="content">
+        <div class="meta">
+          <p>{{ item.description }}</p>
+          <p>{{ githubLink }}</p>
+        </div>
+      </div>
+
+    </li>
+  {% endfor %}
+  </ul>
+
+</div>
