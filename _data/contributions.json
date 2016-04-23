@@ -1,0 +1,12 @@
+[
+   {
+      "source": "Respect/Validation",
+      "site": "http://respect.github.io/Validation/",
+      "description": "The most awesome validation engine ever created for PHP"
+   },
+   {
+      "source": "badges/poser",
+      "site": "https://poser.pugx.org/",
+      "description": "PHP badges library"
+   }
+]
