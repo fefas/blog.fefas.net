@@ -3,7 +3,7 @@
   padding: .71428571em 0;
 }
 #header .right.menu .item i {
-  margin: 0;
+  margin: 0 2px;
 }
 #header .right.menu .item:last-child {
   padding-right: 16px;
