@@ -10,9 +10,9 @@
     {% endfor %}
 
     <div class="right menu">
-    {% for socialNetwork in site.data.socialNetworks %}
-      <a class="ui item" target="_blank" href="{{ socialNetwork.url }}">
-        <i class="{{ socialNetwork.name }} square icon"></i>
+    {% for profile in site.data.profiles %}
+      <a class="ui item" target="_blank" href="{{ profile.url }}">
+        <i class="{{ profile.icon }} icon"></i>
       </a>
     {% endfor %}
     <a class="ui item" target="_blank" href="mailto:{{ site.data.me.email }}">
