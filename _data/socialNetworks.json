@@ -1,18 +1,27 @@
 [
    {
-      "name": "github",
+      "name": "Github",
+      "icon": "github",
       "url": "https://github.com/fefas"
    },
    {
-      "name": "linkedin",
-      "url": "https://br.linkedin.com/in/fefas"
+      "name": "Stack Overflow",
+      "icon": "stack overflow",
+      "url": "http://stackoverflow.com/users/4259675/fefas"
    },
    {
-      "name": "twitter",
+      "name": "Twitter",
+      "icon": "twitter",
       "url": "https://twitter.com/eufefas"
    },
    {
-      "name": "facebook",
+      "name": "Facebook",
+      "icon": "facebook",
       "url": "https://www.facebook.com/fefefas"
+   },
+   {
+      "name": "Linkedin",
+      "icon": "linkedin",
+      "url": "https://br.linkedin.com/in/fefas"
    }
 ]
