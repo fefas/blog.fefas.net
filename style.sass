@@ -1,0 +1,44 @@
+---
+---
+
+$font-color: #808080
+$font-color-inactive: #c2c2c2
+
+body
+  color: $font-color
+
+#header
+  .right.menu .item
+    padding-right: 0
+    padding-left: 0
+
+  .ui.container
+    .item:not(.active)
+      color: $font-color-inactive
+
+    .item.active,
+    .item:hover
+      color: $font-color
+
+    .item.active
+      font-weight: normal
+      border-color: rgba(0, 0, 0, 0)
+
+#contributions li
+  a
+    color: $font-color
+
+    :nth-child(2)
+      margin-left: 4px
+
+  .meta
+    color: $font-color-inactive
+
+#footer
+  color: $font-color-inactive
+
+  p
+    margin-bottom: 6px
+
+    .name
+      cursor: pointer
