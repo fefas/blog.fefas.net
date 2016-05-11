@@ -4,10 +4,6 @@
       "integrity": "sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
    },
    {
-      "url": "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js",
-      "integrity": ""
-   },
-   {
       "url": "script.js",
       "integrity": ""
    }
