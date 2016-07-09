@@ -8,5 +8,10 @@
       "source": "badges/poser",
       "site": "https://poser.pugx.org/",
       "description": "PHP badges library"
+   },
+   {
+      "source": "adambard/learnxinyminutes-docs",
+      "site": "https://learnxinyminutes.com/",
+      "description": "Code documentation written as code! How novel and totally my idea!"
    }
 ]
