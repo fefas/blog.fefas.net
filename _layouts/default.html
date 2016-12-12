@@ -33,7 +33,19 @@
 
   <body>
 
-    {% include header.html %}
+    <div id=header class="ui secondary pointing menu">
+      <div class="ui text container">
+
+        <div class="right menu">
+        {% for profile in site.data.profiles %}
+          <a class="ui item" target="_blank" href="{{ profile.url }}">
+            <i class="{{ profile.icon }} icon"></i>
+          </a>
+        {% endfor %}
+        </div>
+
+      </div>
+    </div>
 
     <div id=content class="ui text container">{{ content }}</div>
 
