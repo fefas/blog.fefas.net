@@ -5,7 +5,11 @@
 
     <meta charset="{{ site.encoding }}">
 
-    {% include head/metaTags.html %}
+    <meta name="author" content="{{ site.data.me.nickname }} ({{ site.data.me.name }})">
+    <meta name="reply-to" content="{{ site.data.me.email }}">
+    <meta name="application-name" content="{{ site.data.me.nickname }}'s website">
+    <meta name="description" content="Website of the software developer {{ site.data.me.name}} with content that may help others developers to work better.">
+    <meta name="keywords" content="{{ site.data.me.nickname }}, {{ site.data.me.name }}">
 
     <title>fefas.net</title>
 
