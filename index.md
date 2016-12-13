@@ -16,10 +16,10 @@ You can find me at
   * {{ post.date | date: '%Y %b %d' }} - [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
-Comming soon: I am working on two drafts ..
+Comming soon: I am working on two drafts..
 
 ## Contributions
 
 {% for contribution in site.data.contributions %}
-  * {{ contribution.projectName }} - see [the project page]({{ contribution.projectPage }}) and [my commits]({{ contribution.myCommitsUrl }})
+  * {{ contribution.projectName }}<br>- [project page]({{ contribution.projectPage }})<br>- [my commits]({{ contribution.myCommitsUrl }})
 {% endfor %}

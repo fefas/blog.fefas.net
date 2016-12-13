@@ -23,14 +23,14 @@ $h1-font-size: 2 * $font-size
 $h2-font-size: 1.5 * $font-size
 $h1-nickname-font-color: $font-color-subtle
 
-$wrapper-width: 80ch
-$wrapper-padding: 1.5 * $font-size
+$wrapper-max-width: 80ch
+$wrapper-padding: 1 * $font-size
 
 $content-list-style-type: none
 $content-list-item-padding: $font-size / 4 0
 
 $footer-font-color: $font-color-subtle
-$footer-margin-top: 4 * $font-size
+$footer-margin-top: 2 * $font-size
 $footer-text-align: center
 
 body
@@ -68,7 +68,7 @@ a
     color: $link-font-color
 
 #wrapper
-  width: $wrapper-width
+  max-width: $wrapper-max-width
   margin: $margin-to-center
   padding: $wrapper-padding
 
