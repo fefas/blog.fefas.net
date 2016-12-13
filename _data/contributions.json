@@ -1,17 +1,17 @@
 [
-   {
-      "source": "Respect/Validation",
-      "site": "http://respect.github.io/Validation/",
-      "description": "The most awesome validation engine ever created for PHP"
-   },
-   {
-      "source": "badges/poser",
-      "site": "https://poser.pugx.org/",
-      "description": "PHP badges library"
-   },
-   {
-      "source": "adambard/learnxinyminutes-docs",
-      "site": "https://learnxinyminutes.com/",
-      "description": "Code documentation written as code! How novel and totally my idea!"
-   }
+  {
+    "projectName": "Learn X in Y minutes",
+    "projectPage": "https://learnxinyminutes.com/",
+    "myCommitsUrl": "https://github.com/adambard/learnxinyminutes-docs/commits?author=fefas"
+  },
+  {
+    "projectName": "PHP badges API",
+    "projectPage": "https://poser.pugx.org/",
+    "myCommitsUrl": "https://github.com/badges/poser/commits?author=fefas"
+  },
+  {
+    "projectName": "Respect Validation Library",
+    "projectPage": "http://respect.github.io/Validation/",
+    "myCommitsUrl": "https://github.com/Respect/Validation/commits?author=fefas"
+  }
 ]
