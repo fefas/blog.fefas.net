@@ -21,7 +21,8 @@ $hX-margin-bottom: $font-size
 $hX-font-weight: $font-weight
 $h1-font-size: 2 * $font-size
 $h2-font-size: 1.5 * $font-size
-$h1-nickname-font-color: $font-color-subtle
+
+$nickname-font-color: $font-color-subtle
 
 $wrapper-max-width: 80ch
 $wrapper-padding: 1 * $font-size
@@ -50,9 +51,6 @@ h1, h2, h3, h4, h5, h6
 h1
   font-size: $h1-font-size
 
-  .nickname
-    color: $h1-nickname-font-color
-
 h2
   font-size: $h2-font-size
 
@@ -66,6 +64,9 @@ a
 
   &:visited
     color: $link-font-color
+
+.nickname
+  color: $nickname-font-color
 
 #wrapper
   max-width: $wrapper-max-width
