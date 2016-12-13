@@ -11,8 +11,9 @@
     <meta name="description" content="Website of the software developer {{ site.data.me.name}} with content that may help others developers to work better.">
     <meta name="keywords" content="{{ site.data.me.nickname }}, {{ site.data.me.name }}">
 
-    <title>{{ site.data.me.nickname }}</title>
+    <title>{{ site.host }}</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/assets/style.css">
 
     <script>
@@ -30,26 +31,17 @@
 
   <body>
 
-    <div id=header class="ui secondary pointing menu">
-      <div class="ui text container">
+    <div id="wrapper">
 
-        <div class="right menu">
-        {% for profile in site.data.profiles %}
-          <a class="ui item" target="_blank" href="{{ profile.url }}">
-            <i class="{{ profile.icon }} icon"></i>
-          </a>
-        {% endfor %}
-        </div>
+      <section id="content">
+        {{ content }}
+      </section>
 
-      </div>
-    </div>
+      <footer>
+        <p id="copyright">&copy; 2016 {{ site.data.me.name }} all rights reserved</p>
+        <p>:wq</p>
+      </footer>
 
-    <div id="wrapper">{{ content }}</div>
-
-    <div id=footer class="ui center aligned basic segment">
-      <p id=copyright>&copy; 2016 <span class="name">{{ site.data.me.name }}
-        </span> all rights reserved</p>
-      <p>:wq</p>
     </div>
 
   </body>

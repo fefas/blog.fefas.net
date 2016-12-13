@@ -1,44 +1,91 @@
 ---
 ---
 
-$font-color: #808080
-$font-color-inactive: #c2c2c2
+$no-margin: 0
+$margin-to-center: 0 auto
+$no-padding: 0
+
+$font-size: 16px
+$font-color: #333
+$font-color: #333
+$font-family: 'Inconsolata', monospace
+$font-weight: 400
+
+$link-font-color: #33c
+$link-text-decoration: none
+$link-hover-text-decoration: underline
+$link-hover-cursor: pointer
+
+$hX-margin-top: 2.5 * $font-size
+$hX-margin-bottom: $font-size
+$hX-font-weight: $font-weight
+$h1-font-size: 2 * $font-size
+$h2-font-size: 1.5 * $font-size
+
+$wrapper-width: 80ch
+$wrapper-padding: 1.5 * $font-size
+
+$content-list-style-type: none
+$content-list-item-padding: $font-size / 4 0
+
+$footer-font-color: #ddd
+$footer-margin-top: 4 * $font-size
+$footer-text-align: center
 
 body
+  margin: $no-margin
+  padding: $no-padding
+
+  font-family: $font-family
+  font-size: $font-size
+  font-weight: $font-weight
   color: $font-color
 
-#header
-  .right.menu .item
-    padding-right: 0
-    padding-left: 0
+h1, h2, h3, h4, h5, h6
+  margin-top: $hX-margin-top
+  margin-bottom: $hX-margin-bottom
+  font-weight: $hX-font-weight
 
-  .ui.container
-    .item:not(.active)
-      color: $font-color-inactive
+h1
+  font-size: $h1-font-size
 
-    .item.active,
-    .item:hover
-      color: $font-color
+  .nickname
+    color: #ddd
 
-    .item.active
-      font-weight: normal
-      border-color: rgba(0, 0, 0, 0)
+h2
+  font-size: $h2-font-size
 
-#contributions li
-  a
-    color: $font-color
+a
+  text-decoration: $link-text-decoration
+  color: $link-font-color
 
-    :nth-child(2)
-      margin-left: 4px
+  &:hover
+    text-decoration: $link-hover-text-decoration
+    cursor: $link-hover-cursor
 
-  .meta
-    color: $font-color-inactive
+  &:visited
+    color: $link-font-color
 
-#footer
-  color: $font-color-inactive
+#wrapper
+  width: $wrapper-width
+  margin: $margin-to-center
+  padding: $wrapper-padding
+
+#content
+  ul
+    padding: $no-padding
+    list-style-type: $content-list-style-type
+
+    li
+      padding: $content-list-item-padding
+
+    p
+      margin: $no-margin
+
+footer
+  margin-top: $footer-margin-top
+  text-align: $footer-text-align
+  color: $footer-font-color
 
   p
-    margin-bottom: 6px
-
-    .name
-      cursor: pointer
+    margin: $no-margin
