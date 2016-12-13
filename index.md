@@ -4,7 +4,7 @@ layout: default
 
 # {{ site.data.me.name }} <span class="nickname">{{ site.data.me.nickname }}</span>
 
-You can find me at
+You can find me on
   [github](https://github.com/fefas),
   [stack overflow](http://stackoverflow.com/users/4259675/fefas),
   [linkedin](https://br.linkedin.com/in/fefas) and
