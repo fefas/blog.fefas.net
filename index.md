@@ -32,5 +32,7 @@ Comming soon: I am working on two drafts..
 ## Contributions
 
 {% for contribution in site.data.contributions %}
-  * {{ contribution.projectName }}<br>- [project page]({{ contribution.projectPage }})<br>- [my commits]({{ contribution.myCommitsUrl }})
+  * {{ contribution.projectName }}
+  <br>- [project page]({{ contribution.projectPage }})
+  <br>- [my commits]({{ contribution.myCommitsUrl }})
 {% endfor %}
