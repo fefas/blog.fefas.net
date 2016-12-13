@@ -6,9 +6,8 @@ layout: default
 
 You can find me on
   [github](https://github.com/fefas),
-  [stack overflow](http://stackoverflow.com/users/4259675/fefas),
-  [linkedin](https://br.linkedin.com/in/fefas) and
-  [facebook](https://www.facebook.com/eufefas).
+  [stack overflow](http://stackoverflow.com/users/4259675/fefas) and
+  [linkedin](https://br.linkedin.com/in/fefas).
 
 ## Posts
 
