@@ -7,7 +7,7 @@ $no-padding: 0
 
 $font-size: 16px
 $font-color: #333
-$font-color: #333
+$font-color-subtle: #ccc
 $font-family: 'Inconsolata', monospace
 $font-weight: 400
 
@@ -21,6 +21,7 @@ $hX-margin-bottom: $font-size
 $hX-font-weight: $font-weight
 $h1-font-size: 2 * $font-size
 $h2-font-size: 1.5 * $font-size
+$h1-nickname-font-color: $font-color-subtle
 
 $wrapper-width: 80ch
 $wrapper-padding: 1.5 * $font-size
@@ -28,7 +29,7 @@ $wrapper-padding: 1.5 * $font-size
 $content-list-style-type: none
 $content-list-item-padding: $font-size / 4 0
 
-$footer-font-color: #ddd
+$footer-font-color: $font-color-subtle
 $footer-margin-top: 4 * $font-size
 $footer-text-align: center
 
@@ -50,7 +51,7 @@ h1
   font-size: $h1-font-size
 
   .nickname
-    color: #ddd
+    color: $h1-nickname-font-color
 
 h2
   font-size: $h2-font-size
