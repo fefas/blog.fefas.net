@@ -17,9 +17,9 @@ that should be important to others developers. I hope the content can be helpful
 for you too.
 
 You can find me on
-  [github](https://github.com/fefas),
-  [stack overflow](http://stackoverflow.com/users/4259675/fefas) and
-  [linkedin](https://br.linkedin.com/in/fefas).
+  [github]({{ site.data.me.githubUrl }}),
+  [stack overflow]({{ site.data.me.stackoverflowUrl }}) and
+  [linkedin]({{ site.data.me.linkedinUrl }}).
 
 ## Posts
 
