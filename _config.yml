@@ -1,2 +1,5 @@
 timezone: America/Sao_Paulo
 encoding: UTF-8
+
+exclude:
+  - README.md
