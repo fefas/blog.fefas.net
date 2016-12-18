@@ -23,12 +23,16 @@ $h1-font-size: 2 * $font-size
 $h2-font-size: 1.5 * $font-size
 
 $nickname-font-color: $font-color-subtle
+$author-font-color: $font-color-subtle
+$author-font-style: italic
 
 $wrapper-max-width: 640px
 $wrapper-padding: 1 * $font-size
 
 $content-list-style-type: none
-$content-list-item-padding: $font-size / 4 0
+$content-list-item-before-chars: "> "
+$content-list-item-padding: 0 0 2px 0
+$content-list-last-item-padding: 0
 
 $footer-font-color: $font-color-subtle
 $footer-margin-top: 2 * $font-size
@@ -84,8 +88,15 @@ main
     li
       padding: $content-list-item-padding
 
-    p
-      margin: $no-margin
+      &:last-child
+        padding: $content-list-last-item-padding
+
+      p
+        margin: $no-margin
+
+        &:before
+          font-size: $font-size
+          content: $content-list-item-before-chars
 
 footer
   margin-top: $footer-margin-top

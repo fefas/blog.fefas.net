@@ -32,7 +32,5 @@ You can find me on
 ## Contributions
 
 {% for contribution in site.data.contributions %}
-  * {{ contribution.projectName }}
-  <br>- [project page]({{ contribution.projectPage }})
-  <br>- [my commits]({{ contribution.myCommitsUrl }})
+  * [{{ contribution.projectName }}]({{ contribution.myCommitsUrl }})
 {% endfor %}
