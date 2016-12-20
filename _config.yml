@@ -2,4 +2,6 @@ timezone: America/Sao_Paulo
 encoding: UTF-8
 
 exclude:
+  - Gemfile
+  - Gemfile.lock
   - README.md
