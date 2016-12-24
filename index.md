@@ -12,9 +12,9 @@ Through software with quality, my main goal is to contribute to the open source
 community and also to the companies which are engaged in creating innovative
 solutions that improve people's lives.
 
-I will write and leave on this page [posts](#posts) about what I learn daily
-that should be important to others developers. I hope the content can be helpful
-for you too.
+I will write and leave on this page posts about what I learn daily that should
+be important to others developers. I hope the content can be helpful for you
+too.
 
 You can find me on
   [github]({{ site.data.me.githubUrl }}),
