@@ -1,5 +1,10 @@
 [
   {
+    "title": "Docker for PHP Developers",
+    "url": "http://www.newmediacampaigns.com/blog/docker-for-php-developers",
+    "author": "Josh Lockhart"
+  },
+  {
     "title": "The Joel Test: 12 Steps to Better Code",
     "url": "https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/",
     "author": "Joel Spolsky"
