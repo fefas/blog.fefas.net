@@ -10,7 +10,7 @@ web.
 
 Through software with quality, my main goal is to contribute to the open source
 community and also to the companies which are engaged in creating innovative
-solutions that improve people's lives.
+solutions that improve peoples' lives.
 
 I will write and leave on this page posts about what I learn daily that should
 be important to others developers. I hope the content may be helpful for you
