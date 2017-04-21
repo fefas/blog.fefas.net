@@ -9,8 +9,8 @@ module Jekyll
 
         Dir.chdir(site.source) do
           site.data['git'] = gitData
-          end
         end
+      end
 
       def gitData
         {
