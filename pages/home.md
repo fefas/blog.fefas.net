@@ -1,12 +1,13 @@
 ---
 layout: default
+permalink: /
 ---
 
 # {{ site.data.me.name }} <span class="nickname">{{ site.data.me.nickname }}</span>
 
-Hello, World! My name is {{ site.data.me.name }}, but I am also known as <span
-class="nickname">{{ site.data.me.nickname }}</span>, which is my nickname on the
-web.
+Hello, World! My name is {{ site.data.me.name }}, but everybody calls me <span
+class="nickname">{{ site.data.me.nickname }}</span>, which one is also my
+nickname on the web.
 
 By developing quality software, my main goal is to contribute to the open source
 community and also to the companies that are engaged to create innovative
