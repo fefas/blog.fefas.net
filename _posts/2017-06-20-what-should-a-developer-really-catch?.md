@@ -1,7 +1,10 @@
 ---
 layout: post
-title: What should a developer really catch?
 permalink: /posts/:title
+
+title: What should a developer really catch?
+
+mediumUri: not-yet-created
 ---
 # What should a developer really catch?
 

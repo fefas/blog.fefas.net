@@ -43,6 +43,11 @@ $content-list-item-before-chars: "> "
 $content-list-item-padding: 0
 $content-list-item-margin: 2px 0
 
+$post-page-nav-link-color: $font-color
+$post-page-nav-link-margin: $font-size
+$post-page-nav-link-before-font-size: $font-size
+$post-page-nav-link-before-string: "> "
+
 $footer-font-color: $font-color-subtle
 $footer-margin-top: 2 * $font-size
 $footer-text-align: center
@@ -90,8 +95,17 @@ a
   &:visited
     color: $link-font-color
 
-  &.back, &.back:hover, &.back:visited
-    color: $font-color
+nav.post-page
+  a, a:hover, a:visited
+    color: $post-page-nav-link-color
+
+  a:not(:first-child)
+    margin-left: $post-page-nav-link-margin
+    float: right
+
+    &:before
+      font-size: $post-page-nav-link-before-font-size
+      content: $post-page-nav-link-before-string
 
 blockquote
   color: $blockquote-font-color
