@@ -24,10 +24,8 @@ You can find me on
 ## Posts
 
 {% for post in site.posts %}
-  * {{ post.date | date: '%Y %b %d' }} - [{{ post.title }}]({{ post.url }})
+  * [{{ post.title }}]({{ post.url }}) <span class="post-date">{{ post.date | date: '%Y %b %d' }}</span>
 {% endfor %}
-
-): none until now, working on two drafts..
 
 ## Recommended Articles
 
