@@ -11,10 +11,19 @@ $font-color-subtle: #bbb
 $font-family: 'Inconsolata', monospace
 $font-weight: 400
 
+$paragraph-margin: $font-size
+
 $link-font-color: #33c
 $link-text-decoration: none
 $link-hover-text-decoration: underline
 $link-hover-cursor: pointer
+
+$blockquote-font-color: #888
+$blockquote-link-color: #333
+$blockquote-background-color: #f8f8f8
+$blockquote-margin: $paragraph-margin
+$blockquote-padding: $font-size 1.5 * $font-size
+$blockquote-border-left: 4px solid #ddd
 
 $hX-margin-top: 1 * $font-size
 $hX-margin-bottom: 1 * $font-size
@@ -58,7 +67,7 @@ h1, h2, h3, h4, h5, h6
   margin-bottom: $hX-margin-bottom
   font-weight: $hX-font-weight
 
-  & + p, & + ul
+  & + *
     margin-top: $hX-margin-bottom
 
 h1
@@ -66,6 +75,9 @@ h1
 
 h2
   font-size: $h2-font-size
+
+p
+  margin: $paragraph-margin
 
 a
   text-decoration: $link-text-decoration
@@ -80,6 +92,19 @@ a
 
   &.back, &.back:hover, &.back:visited
     color: $font-color
+
+blockquote
+  color: $blockquote-font-color
+  background: $blockquote-background-color
+  border-left: $blockquote-border-left
+  margin: $blockquote-margin
+  padding: $blockquote-padding
+
+  p
+    margin: $no-margin
+
+  a, a:hover, a:visited
+    color: $blockquote-link-color
 
 .nickname
   color: $nickname-font-color
