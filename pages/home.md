@@ -23,6 +23,8 @@ You can find me on
 
 ## Posts
 
+Next post coming: _How to work daily with TDD._
+
 {% for post in site.posts %}
   * [{{ post.title }}]({{ post.url }}) <span class="post-date">{{ post.date | date: '%Y %b %d' }}</span>
 {% endfor %}
