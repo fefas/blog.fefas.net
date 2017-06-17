@@ -1,5 +1,5 @@
 ---
-layout: withoutNavigationBar
+layout: page
 permalink: /
 ---
 
