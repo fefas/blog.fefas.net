@@ -34,9 +34,3 @@ You can find me on
 {% for article in site.data.recommendedArticles %}
   * [{{ article.title }}]({{ article.url }}) <span class="author">- {{ article.author }}</span>
 {% endfor %}
-
-## Contributions
-
-{% for contribution in site.data.contributions %}
-  * [{{ contribution.projectName }}]({{ contribution.myCommitsUrl }})
-{% endfor %}
