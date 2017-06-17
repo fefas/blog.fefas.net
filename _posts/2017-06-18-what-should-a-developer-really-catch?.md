@@ -6,7 +6,7 @@ title: What should a developer really catch?
 
 mediumUri: not-yet-created
 ---
-# What should a developer really catch?
+# {{ page.title }}
 
 In my first post I would like to write about something that isn't found so often
 on the internet and most ~~experienced~~ developers are missing.
