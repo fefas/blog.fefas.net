@@ -12,15 +12,16 @@ In my first post I would like to write about something that isn't found so often
 on the internet and most ~~experienced~~ developers are missing.
 
 Maybe because they seem to worry more about _tech-hacks_ than realistic
-professionalism, that is my guess.
+professionalism... that is my guess.
 
 First of all, I would like to say that this post is both something I have to
 vent out and a self-critique.
 
 ## What are we, developers?
 
-Stop it! Let's bring something up: _when we write code, we write solutions... or
-that's what we're supposed to do._
+Stop it! Let's bring something up:
+
+> When we write code, we write solutions... or that's what we're supposed to do.
 
 No, we aren't coding the next ~~magic~~ wonderful architecture. We SHOULD just
 translate business solutions to a code language that SHOULD solve business
@@ -55,7 +56,7 @@ lines that don't make sense together and, instead of improving users'
 experience, the growing mess isn't adding any value... the company may go out of
 business quickly.
 
-> Just to be clear here: when I say good code I mean _expressive_ code, not an
+> Just to be clear: when I say good code I mean _expressive_ code, not an
 > agglomeration of design patterns. Good code is simple and direct.
 
 ## Where is our the problem then?
@@ -104,8 +105,8 @@ Years ago at university I heard someone saying:
 
 During the last two years I worked with great teams that introduced me to some
 terms: Clean Code, Test Driven Development (TDD), Domain-Driven Design (DDD),
-Behavior Driven Development (BDD), Continuous Integration (CI), DevOps, Agile
-Manifesto, Software Craftsmanship etc.
+Behavior Driven Development (BDD), Continuous Integration (CI), (real) Object
+Oriented Programming (OOP), DevOps, Agile Manifesto, Software Craftsmanship etc.
 
 I still have a lot to learn about those subjects, but they already changed my
 professional attitude and today I know I am on the right way to become the
@@ -151,12 +152,12 @@ And you can also follow the authors:
 - Eric Evans;
 - Rebecca Wirfs-Brock.
 
-> Thanks [Eriksen Costa](https://blog.eriksen.com.br). He was my boss and sent
-> me both lists.
+> [Eriksen Costa](https://blog.eriksen.com.br) sent me both lists when he was my
+> boss. Thank you!
 
 My recommendation is to start with _The Software Craftsman_.
 
 I hope you can also find a reference to follow on those books. And remember,
 **simplicity is a keyword**.
 
-> Is there already any T-shirt with _"Don't worry and keep it simple"_?
+> Is there already any T-shirt with "Don't worry and keep it simple"?
