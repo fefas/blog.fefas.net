@@ -40,7 +40,8 @@ $image-width: 100%
 
 $content-list-style-type: none
 $content-list-item-before-chars: "> "
-$content-list-item-padding: 0
+$content-list-item-padding: 0 0 0 $font-size
+$content-list-text-indent: -$font-size
 $content-list-item-margin: 2px 0
 
 $post-page-nav-link-color: $font-color
@@ -137,8 +138,9 @@ main
     list-style-type: $content-list-style-type
 
     li
-      padding: $content-list-item-padding
       margin: $content-list-item-margin
+      padding: $content-list-item-padding
+      text-indent: $content-list-text-indent
 
       span.post-date
         float: right
