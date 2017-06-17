@@ -122,35 +122,33 @@ haven't yet read all of them, but the ones I did have changed the way I develop
 every couple of pages, turning me into a **more conscious and mature
 developer**:
 
-- Pragmatic Unit Testing with JUnit in Java 8 of Jeff Langr;
-- Growing Object Oriented Software, Guided by Tests (Nat Pryce, Steve Freeman);
-- Design Patterns: Elements of Reusable Object-Oriented Software (Erich Gamma,
-  Richard Helm, Ralph Johnson and John Vlissides Gang of Four);
-- Clean Code: A Handbook of Agile Software Craftsmanship (Robert C Martin, aka
-  Uncle Bob);
-- Patterns of Enterprise Application Architecture (Martin Fowler);
-- Touch of Class (Bertrand Meyer);
-- Implementing Domain-Driven Design (Vaughn Vernon);
-- Domain-Driven Design Distilled (Vaughn Vernon);
-- Continuous Delivery (David Farley, Jezz Humble);
-- Rest API Design Rulebook (Mark Massé);
-- Release It! (Michael Nygard);
-- The Scrum Guide (Ken Schwaber, Jeff Sutherland);
-- Kanban in 30 days (Thomas & Jannika Bjorkholm);
-- The Art of Agile Development (James Shore);
-- The Software Craftsman (Sandro Mancuso);
-- Running Lean (Ash Maurya).
+- Jeff Langr, 2015. [Pragmatic Unit Testing with JUnit in Java 8](https://www.amazon.com/Pragmatic-Unit-Testing-Java-JUnit-ebook/dp/B00VXT0ZA2)
+- Nat Pryce; Steve Freeman, 2009. [Growing Object Oriented Software, Guided by Tests](https://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627)
+- Erich Gamma; Richard Helm; Ralph Johnson; John Vlissides, 1994. [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+- Robert C Martin, 2008. [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+- Martin Fowler, 2002. [Patterns of Enterprise Application Architecture](https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
+- Bertrand Meyer, 2009. [Touch of Class: Learning to Program Well with Objects and Contracts](https://www.amazon.com/Touch-Class-Learning-Program-Contracts/dp/3540921443)
+- Vaughn Vernon, 2013. [Implementing Domain-Driven Design](https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577)
+- Vaughn Vernon, 2016. [Domain-Driven Design Distilled](https://www.amazon.com/Domain-Driven-Design-Distilled-Vaughn-Vernon/dp/0134434420)
+- David Farley; Jezz Humble, 2010. [Continuous Delivery](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912)
+- Mark Massé, 2011. [Rest API Design Rulebook](http://shop.oreilly.com/product/0636920021575.do)
+- Michael Nygard, 2007. [Release It!](http://shop.oreilly.com/product/9780978739218.do)
+- Ken Schwaber; Jeff Sutherland, 2016. [The Scrum Guide](http://www.scrumguides.org/docs/scrumguide/v2016/2016-Scrum-Guide-US.pdf#zoom=100)
+- Thomas Björkholm; Jannika Bjorkholm, 2015. [Kanban in 30 days](https://www.amazon.com/Kanban-30-days-Tomas-Björkholm/dp/1783000902)
+- James Shore, 2007. [The Art of Agile Development](http://shop.oreilly.com/product/9780596527679.do)
+- Sandro Mancuso, 2013. [The Software Craftsman: Professionalism, Pragmatism, Pride](https://www.amazon.com/dp/B00QXAGIDO/ref=cm_sw_r_cp_dp_T1_T3zrzb5139XRC)
+- Ash Maurya, 2012. [Running Lean](http://shop.oreilly.com/product/0636920020141.do)
 
 And you can also follow the authors:
 
-- Robert C. Martin (aka Uncle Bob);
-- Kent Beck;
-- Vaughn Vernon;
-- Martin Fowler;
-- Grady Booch;
-- James Coplien;
-- Eric Evans;
-- Rebecca Wirfs-Brock.
+- [Robert C. Martin (aka Uncle Bob)](https://twitter.com/unclebobmartin)
+- [Kent Beck](https://twitter.com/KentBeck)
+- [Vaughn Vernon](https://twitter.com/VaughnVernon)
+- [Martin Fowler](https://twitter.com/martinfowler)
+- [Grady Booch](https://twitter.com/Grady_Booch)
+- [James Coplien](https://twitter.com/jcoplien)
+- [Eric Evans](https://twitter.com/ericevans0)
+- [Rebecca Wirfs-Brock](https://twitter.com/rebeccawb)
 
 > [Eriksen Costa](https://blog.eriksen.com.br) sent me both lists when he was my
 > boss. Thank you!
