@@ -26,9 +26,3 @@ You can find me on
 {% for post in site.posts %}
   * [{{ post.title }}]({{ post.url }}) <span class="post-date">{{ post.date | date: '%Y %b %d' }}</span>
 {% endfor %}
-
-## Recommended Articles
-
-{% for article in site.data.recommendedArticles %}
-  * [{{ article.title }}]({{ article.url }}) <span class="author">- {{ article.author }}</span>
-{% endfor %}
