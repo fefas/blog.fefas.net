@@ -99,8 +99,9 @@ about their positions' value.
 
 Years ago at university I heard someone saying:
 
-> _"O diferencial para um bom jogador de sinuca não é conseguir matar bolas
-> difíceis, sim conseguir posicionar a bola branca para a próxima tacada."_
+> _"What makes a snooker player stand out is not just trying to pocket the most
+> challenging balls, but rather to best place the white ball for the next
+> shot."_
 
 During the last two years I worked with great teams that introduced me to some
 terms: Clean Code, Test Driven Development (TDD), Domain-Driven Design (DDD),
