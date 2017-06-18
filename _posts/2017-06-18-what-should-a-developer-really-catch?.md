@@ -21,7 +21,7 @@ vent out and a self-critique.
 
 Stop it! Let's bring something up:
 
-> When we write code, we write solutions... or that's what we're supposed to do.
+_When we write code, we write solutions... or that's what we're supposed to do._
 
 No, we aren't coding the next ~~magic~~ wonderful architecture. We SHOULD just
 translate business solutions to a code language that SHOULD solve business
@@ -100,8 +100,7 @@ about their positions' value.
 Years ago at university I heard someone saying:
 
 > _"O diferencial para um bom jogador de sinuca não é conseguir matar bolas
-> difíceis, sim conseguir posicionar a bola branca para a próxima tacada."_ --
-> Anonymous
+> difíceis, sim conseguir posicionar a bola branca para a próxima tacada."_
 
 During the last two years I worked with great teams that introduced me to some
 terms: Clean Code, Test Driven Development (TDD), Domain-Driven Design (DDD),
@@ -153,9 +152,12 @@ And you can also follow the authors:
 > [Eriksen Costa](https://blog.eriksen.com.br) sent me both lists when he was my
 > boss. Thank you!
 
-My recommendation is to start with _The Software Craftsman_.
+My recommendation is to start with _The Software Craftsman_ by _Sandro Mancuso_.
 
 I hope you can also find a reference to follow on those books. And remember,
 **simplicity is a keyword**.
 
 > Is there already any T-shirt with "Don't worry and keep it simple"?
+
+> Thanks [@edudobay](https://twitter.com/esdobay) for helping me with typo and
+> english mistakes.
