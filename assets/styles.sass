@@ -57,7 +57,7 @@ $footer-text-align: center
   font-family: 'Inconsolata'
   font-style: normal
   font-weight: 400
-  src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url(/assets/font.ttf) format('truetype')
+  src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url(/assets/font.ttf?v={{ site.data.git.currentCommitSortHash }}) format('truetype')
 
 body
   margin: $no-margin
