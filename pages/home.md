@@ -1,13 +1,12 @@
 ---
-layout: default
+layout: page
 permalink: /
 ---
 
 # {{ site.data.me.name }} <span class="nickname">{{ site.data.me.nickname }}</span>
 
-Hello, World! My name is {{ site.data.me.name }}, but everybody calls me <span
-class="nickname">{{ site.data.me.nickname }}</span>, which one is also my
-nickname on the web.
+Hello, World! I am {{ site.data.me.name }}, aka <span class="nickname">
+{{ site.data.me.nickname }}</span> which is my nickname on the web.
 
 By developing quality software, my main goal is to contribute to the open source
 community and also to the companies that are engaged to create innovative
@@ -23,20 +22,8 @@ You can find me on
 
 ## Posts
 
+Next post coming: _How to work daily with TDD._
+
 {% for post in site.posts %}
-  * {{ post.date | date: '%Y %b %d' }} - [{{ post.title }}]({{ post.url }})
-{% endfor %}
-
-): none until now, working on two drafts..
-
-## Recommended Articles
-
-{% for article in site.data.recommendedArticles %}
-  * [{{ article.title }}]({{ article.url }}) <span class="author">- {{ article.author }}</span>
-{% endfor %}
-
-## Contributions
-
-{% for contribution in site.data.contributions %}
-  * [{{ contribution.projectName }}]({{ contribution.myCommitsUrl }})
+  * [{{ post.title }}]({{ post.url }}) <span class="post-date">{{ post.date | date: '%Y %b %d' }}</span>
 {% endfor %}

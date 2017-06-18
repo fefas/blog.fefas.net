@@ -11,10 +11,19 @@ $font-color-subtle: #bbb
 $font-family: 'Inconsolata', monospace
 $font-weight: 400
 
+$paragraph-margin: $font-size 0
+
 $link-font-color: #33c
 $link-text-decoration: none
 $link-hover-text-decoration: underline
 $link-hover-cursor: pointer
+
+$blockquote-font-color: #888
+$blockquote-link-color: #333
+$blockquote-background-color: #f8f8f8
+$blockquote-margin: $paragraph-margin
+$blockquote-padding: 0.5 * $font-size 0.5 * $font-size 0.5 * $font-size 1.5 * $font-size
+$blockquote-border-left: 4px solid #ddd
 
 $hX-margin-top: 1 * $font-size
 $hX-margin-bottom: 1 * $font-size
@@ -23,16 +32,22 @@ $h1-font-size: 2 * $font-size
 $h2-font-size: 1.5 * $font-size
 
 $nickname-font-color: $font-color-subtle
-$author-font-color: $font-color-subtle
-$author-font-style: italic
 
 $wrapper-max-width: 640px
 $wrapper-padding: 1 * $font-size 2 * $font-size
 
+$image-width: 100%
+
 $content-list-style-type: none
 $content-list-item-before-chars: "> "
-$content-list-item-padding: 0
+$content-list-item-padding: 0 0 0 $font-size
+$content-list-text-indent: -$font-size
 $content-list-item-margin: 2px 0
+
+$post-page-nav-link-color: $font-color
+$post-page-nav-link-margin: $font-size
+$post-page-nav-link-before-font-size: $font-size
+$post-page-nav-link-before-string: "> "
 
 $footer-font-color: $font-color-subtle
 $footer-margin-top: 2 * $font-size
@@ -42,7 +57,7 @@ $footer-text-align: center
   font-family: 'Inconsolata'
   font-style: normal
   font-weight: 400
-  src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url(/assets/font.ttf) format('truetype')
+  src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url(/assets/font.ttf?v={{ site.data.git.currentCommitSortHash }}) format('truetype')
 
 body
   margin: $no-margin
@@ -58,7 +73,7 @@ h1, h2, h3, h4, h5, h6
   margin-bottom: $hX-margin-bottom
   font-weight: $hX-font-weight
 
-  & + p, & + ul
+  & + *
     margin-top: $hX-margin-bottom
 
 h1
@@ -66,6 +81,9 @@ h1
 
 h2
   font-size: $h2-font-size
+
+p
+  margin: $paragraph-margin
 
 a
   text-decoration: $link-text-decoration
@@ -78,33 +96,59 @@ a
   &:visited
     color: $link-font-color
 
+nav
+  a, a:hover, a:visited
+    color: $post-page-nav-link-color
+
+  a:not(:first-child)
+    margin-left: $post-page-nav-link-margin
+    float: right
+
+    &:before
+      font-size: $post-page-nav-link-before-font-size
+      content: $post-page-nav-link-before-string
+
+blockquote
+  color: $blockquote-font-color
+  background: $blockquote-background-color
+  border-left: $blockquote-border-left
+  margin: $blockquote-margin
+  padding: $blockquote-padding
+
+  p
+    margin: $no-margin
+
+  a, a:hover, a:visited
+    color: $blockquote-link-color
+
 .nickname
   color: $nickname-font-color
 
-.author
-  color: $author-font-color
-  font-style: $author-font-style
-
-#wrapper
+.wrapper
   max-width: $wrapper-max-width
   margin: $margin-to-center
   padding: $wrapper-padding
 
 main
+  img
+    width: $image-width
+
   ul
     padding: $no-padding
     list-style-type: $content-list-style-type
 
     li
-      padding: $content-list-item-padding
       margin: $content-list-item-margin
+      padding: $content-list-item-padding
+      text-indent: $content-list-text-indent
 
-      p
-        margin: $no-margin
+      span.post-date
+        float: right
+        color: $font-color-subtle
 
-        &:before
-          font-size: $font-size
-          content: $content-list-item-before-chars
+      &:before
+        font-size: $font-size
+        content: $content-list-item-before-chars
 
 footer
   margin-top: $footer-margin-top
@@ -113,3 +157,6 @@ footer
 
   p
     margin: $no-margin
+
+  a, a:hover, a:visited
+    color: $footer-font-color
