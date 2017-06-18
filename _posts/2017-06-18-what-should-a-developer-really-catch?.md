@@ -4,7 +4,7 @@ permalink: /posts/:title
 
 title: What should a developer really catch?
 
-mediumUri: not-yet-created
+mediumUri: "@fefas/what-should-a-developer-really-catch-dbd250233a9e"
 ---
 # {{ page.title }}
 
