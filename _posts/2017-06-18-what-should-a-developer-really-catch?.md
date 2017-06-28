@@ -59,7 +59,7 @@ business quickly.
 > Just to be clear: when I say good code I mean _expressive_ code, not an
 > agglomeration of design patterns. Good code is simple and direct.
 
-## Where is our the problem then?
+## Where is our problem then?
 
 This could be an endless discussion. So, I selected only two of my guesses I
 judge being the most critical ones.
