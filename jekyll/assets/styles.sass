@@ -5,13 +5,16 @@ $no-margin: 0
 $margin-to-center: 0 auto
 $no-padding: 0
 
+$font-family: 'Roboto Mono', monospace
 $font-size: 16px
 $font-color: #333
 $font-color-subtle: #bbb
-$font-family: 'Inconsolata', monospace
-$font-weight: 400
+$font-weight-normal: 300
+$font-weight-bold: 500
 
 $paragraph-margin: $font-size 0
+
+$strong-font-weight: $font-weight-bold
 
 $link-font-color: #33c
 $link-text-decoration: none
@@ -27,13 +30,13 @@ $blockquote-border-left: 4px solid #ddd
 
 $hX-margin-top: 1 * $font-size
 $hX-margin-bottom: 1 * $font-size
-$hX-font-weight: $font-weight
+$hX-font-weight: $font-weight-bold
 $h1-font-size: 2 * $font-size
 $h2-font-size: 1.5 * $font-size
 
 $nickname-font-color: $font-color-subtle
 
-$wrapper-max-width: 640px
+$wrapper-max-width: 770px
 $wrapper-padding: 1 * $font-size 2 * $font-size
 
 $image-width: 100%
@@ -53,11 +56,22 @@ $footer-font-color: $font-color-subtle
 $footer-margin-top: 2 * $font-size
 $footer-text-align: center
 
+$font-light-uri: "/assets/font-light.ttf?v={{ site.data.version }}"
+$font-medium-uri: "/assets/font-medium.ttf?v={{ site.data.version }}"
+
 @font-face
-  font-family: 'Inconsolata'
+  font-family: 'Roboto Mono'
   font-style: normal
-  font-weight: 400
-  src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url(/assets/font.ttf?v={{ site.data.git.currentCommitSortHash }}) format('truetype')
+  font-weight: 300
+  src: url($font-light-uri) format('woff2')
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+
+@font-face
+  font-family: 'Roboto Mono'
+  font-style: normal
+  font-weight: 500
+  src: url($font-medium-uri) format('woff2')
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
 
 body
   margin: $no-margin
@@ -65,7 +79,7 @@ body
 
   font-family: $font-family
   font-size: $font-size
-  font-weight: $font-weight
+  font-weight: $font-weight-normal
   color: $font-color
 
 h1, h2, h3, h4, h5, h6
@@ -84,6 +98,9 @@ h2
 
 p
   margin: $paragraph-margin
+
+strong
+  font-weight: $strong-font-weight
 
 a
   text-decoration: $link-text-decoration

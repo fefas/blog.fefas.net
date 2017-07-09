@@ -1,10 +1,6 @@
-language: ruby
-
-rvm:
-  - 2.2.5
-
-install:
-  - bundle install --path _vendor/bundle/
+sudo: required
+services:
+    - docker
 
 script:
-  - bundle exec jekyll build
+    - docker build -t fefas/blog.fefas.net:dev -f Dockerfile.dev .
