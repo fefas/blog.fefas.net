@@ -2,8 +2,10 @@ version: "3"
 
 services:
     jekyll:
-        build: ./
-        image: fefas/fefas.net
+        build:
+          context: ./
+          dockerfile: Dockerfile.dev
+        image: fefas/blog.fefas.net:dev
         ports:
             - 80:80
         volumes:

@@ -1,4 +1,4 @@
-FROM ruby:latest AS installer
+FROM ruby:2.4
 
 WORKDIR /usr/src
 
@@ -14,8 +14,6 @@ COPY ./_plugins /usr/src/_plugins
 COPY ./_posts /usr/src/_posts
 COPY ./assets /usr/src/assets
 COPY ./pages /usr/src/pages
-
-FROM installer AS developer
 
 CMD ["bundle", "exec", "jekyll", "serve", "--port", "80", "--host", "0.0.0.0", "--future", "true"]
 
