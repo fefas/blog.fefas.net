@@ -16,11 +16,11 @@ I will leave here content about what I learn daily that may be important to
 others developers. I hope that it may be also helpful for you.
 
 You can find me on
-  [github]({{ site.data.me.socialMediaLinks.github }}),
-  [linkedin]({{ site.data.me.socialMediaLinks.linkedin }}),
-  [twitter]({{ site.data.me.socialMediaLinks.twitter }}),
-  [medium](({{ site.data.me.socialMediaLinks.medium }})) and
-  [stack overflow]({{ site.data.me.stackoverflowUrl }}).
+  [github]({{ site.data.me.links.github }}),
+  [linkedin]({{ site.data.me.links.linkedin }}),
+  [twitter]({{ site.data.me.links.twitter }}),
+  [medium]({{ site.data.me.links.medium }}) and
+  [stack overflow]({{ site.data.me.links.stackoverflow }}).
 
 ## Posts
 
