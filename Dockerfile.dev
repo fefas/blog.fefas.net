@@ -7,6 +7,6 @@ COPY ./jekyll /usr/src
 
 RUN bundle install
 
-CMD ["bundle", "exec", "jekyll", "serve", "--port", "80", "--host", "0.0.0.0", "--future", "true"]
+CMD ["jekyll", "serve", "--watch", "--port", "80", "--host", "0.0.0.0", "--future", "true"]
 
 EXPOSE 80

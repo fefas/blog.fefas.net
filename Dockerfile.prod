@@ -6,7 +6,7 @@ COPY ./.git /usr/src/.git
 COPY ./jekyll /usr/src
 
 RUN bundle install && \
-    bundle exec jekyll build --destination _site
+    jekyll build --destination _site
 
 FROM nginx:1.13
 
