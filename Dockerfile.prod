@@ -2,14 +2,11 @@ FROM ruby:2.4 as jekyll
 
 WORKDIR /usr/src
 
-COPY ./Gemfile /usr/src/Gemfile
-COPY ./Gemfile.lock /usr/src/Gemfile.lock
+COPY ./.git /usr/src/.git
+COPY ./jekyll /usr/src
 
-RUN bundle install
-
-COPY ./ /usr/src/
-
-RUN bundle exec jekyll build --destination _site
+RUN bundle install && \
+    bundle exec jekyll build --destination _site
 
 FROM nginx:1.13
 
