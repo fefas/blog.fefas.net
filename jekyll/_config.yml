@@ -1,7 +1,7 @@
 timezone: America/Sao_Paulo
 encoding: UTF-8
 
-gems:
+plugins:
   - jekyll-sitemap
 
 googleAnalytics:

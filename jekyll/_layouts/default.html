@@ -16,8 +16,8 @@
 
     <title>{{ site.data.me.name }} {{ site.data.me.nickname }}</title>
 
-    <link rel="icon" type="image/png" href="/assets/images/favicon.png?v={{ site.data.git.currentCommitSortHash }}">
-    <link rel="stylesheet" type="text/css" href="/assets/styles.css?version={{ site.data.git.currentCommitSortHash }}">
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png?v={{ site.data.version }}">
+    <link rel="stylesheet" type="text/css" href="/assets/styles.css?v={{ site.data.version }}">
 
     {% if jekyll.environment == 'production' %}
     <script>
@@ -35,7 +35,7 @@
       {{ content }}
 
       <footer>
-        <p>This work is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+        <p>This content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
         <p>:wq</p>
       </footer>
 
