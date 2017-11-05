@@ -2,11 +2,11 @@ FROM ruby:2.4
 
 WORKDIR /usr/src
 
-COPY ./.git /usr/src/.git
 COPY ./jekyll /usr/src
+COPY ./.git /usr/src/.git
 
 RUN bundle install
 
-CMD ["jekyll", "serve", "--watch", "--port", "80", "--host", "0.0.0.0", "--future", "true"]
-
 EXPOSE 80
+
+CMD ["jekyll", "serve", "--watch", "--port", "80", "--host", "0.0.0.0", "--future", "true"]
