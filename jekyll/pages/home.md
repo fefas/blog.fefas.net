@@ -6,16 +6,15 @@ permalink: /
 # {{ site.data.me.name }} <span class="nickname">{{ site.data.me.nickname }}</span>
 
 Hello, World! My name is {{ site.data.me.name }}, aka <span class="nickname"> {{
-site.data.me.nickname }}</span>. I'm Physicist, Software Developer, Clean Coder
-and TDD evangelist in love with DevOps culture that delivers software ASAP (As
-Simple As Possible).
+site.data.me.nickname }}</span>, and I'm Software Developer, Physicist, Clean
+Coder and TDD evangelist who delivers software ASAP (As Simple As Possible).
 
-My personal goal is to improve peoples' lives through my software development
-skills while contributing to open source projects and working at companies
-engaged in creating innovative solutions.
+My personal goal is to improve peoples' lives through my tech skills while
+contributing to open source projects and working at companies engaged in
+creating innovative solutions.
 
-I will leave here content about what I learn daily that may be important to
-others developers. I hope that it may be also helpful for you.
+This blog aims to be a space where I can publish contents that are imporant to
+me and may be also useful for others developers.
 
 You can find me on
   [github]({{ site.data.me.links.github }}),
