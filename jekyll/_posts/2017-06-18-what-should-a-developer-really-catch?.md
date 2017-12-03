@@ -150,15 +150,14 @@ And you can also follow the authors:
 - [Eric Evans](https://twitter.com/ericevans0)
 - [Rebecca Wirfs-Brock](https://twitter.com/rebeccawb)
 
-> [Eriksen Costa](https://blog.eriksen.com.br) sent me both lists when he was my
-> boss. Thank you!
-
 My recommendation is to start with _The Software Craftsman_ by _Sandro Mancuso_.
 
 I hope you can also find a reference to follow on those books. And remember,
 **simplicity is a keyword**.
 
-> Is there already any T-shirt with "Don't worry and keep it simple"?
+> _Is there already any T-shirt with "Don't worry and keep it simple"?_
 
-> Thanks [@edudobay](https://twitter.com/esdobay) for helping me with typo and
-> english mistakes.
+> Thank you [Eriksen Costa](https://blog.eriksen.com.br) for sending both lists
+> when you were my boss and also thank you [Eduardo
+> Dobay](https://twitter.com/esdobay) for helping me with typo and english
+> mistakes.
