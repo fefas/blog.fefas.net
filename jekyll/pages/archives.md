@@ -4,6 +4,10 @@ permalink: /archives
 ---
 
 # Posts to read
+- https://medium.com/the-year-of-the-looking-glass/the-importance-of-side-projects-cf9f63954031
+
+
+
 - https://medium.freecodecamp.com/every-single-machine-learning-course-on-the-internet-ranked-by-your-reviews-3c4a7b8026c0
 - https://medium.com/swlh/how-to-defeat-the-comfort-zone-in-3-powerful-steps-a22c5aab38c9
 - https://medium.com/swlh/how-strong-techies-destroy-startups-and-how-it-can-be-avoided-b633c6a721d9
@@ -82,3 +86,11 @@ permalink: /archives
 
 
 - https://www.infoq.com/br/interviews/infraestrutura-imutavel-na-nubank
+
+- https://medium.freecodecamp.org/460-free-online-programming-computer-science-courses-you-can-start-in-july-ea767bb22092
+
+- https://thoughtworksinc.github.io/guia-de-desenvolvimento-tecnico/topics/Analytics.html
+
+- https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html
+
+- https://www.codementor.io/blog/best-cities-software-engineer-earnings-271vpf599k?utm_content=posts&utm_source=sendgrid&utm_medium=email&utm_term=blog-271vpf599k&utm_campaign=newsletter20170719
