@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-
     <meta charset="{{ site.encoding }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,8 +8,9 @@
     <meta name="reply-to" content="{{ site.data.me.email }}">
     <meta name="keywords" content="{{ site.data.me.name }}, {{ site.data.me.nickname }}">
     <meta name="description" content="
-      Website of the software developer {{ site.data.me.name }} with content
-      that may help others developers to work better.
+      Blog of the software developer {{ site.data.me.name }}, aka {{
+      site.data.me.nickname }} with content that may help others developers to
+      work better.
     ">
 
     <title>{{ site.data.me.name }} {{ site.data.me.nickname }}</title>
@@ -26,7 +25,6 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
-
   </head>
 
   <body>
@@ -35,11 +33,10 @@
       {{ content }}
 
       <footer>
-        <p>This content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
-        <p>:wq</p>
+        <p>This content is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+        <p><a href="https://github.com/fefas/blog.fefas.net">:wq</a></p>
       </footer>
 
     </div>
   </body>
-
 </html>

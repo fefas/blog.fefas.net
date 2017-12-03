@@ -1,30 +1,30 @@
 ---
-layout: page
+layout: common
 permalink: /
 ---
 
 # {{ site.data.me.name }} <span class="nickname">{{ site.data.me.nickname }}</span>
 
-Hello, World! I am {{ site.data.me.name }}, aka <span class="nickname">
-{{ site.data.me.nickname }}</span> which is my nickname on the web.
+Hello, World! My name is {{ site.data.me.name }}, aka <span class="nickname"> {{
+site.data.me.nickname }}</span>, and I'm Software Developer, Physicist, Clean
+Coder and TDD evangelist who delivers software ASAP (As Simple As Possible).
 
-By developing quality software, my main goal is to contribute to the open source
-community and also to the companies that are engaged to create innovative
-solutions that improve peoples' lives.
+My personal goal is to improve peoples' lives through my tech skills while
+contributing to open source projects and working at companies engaged in
+creating innovative solutions.
 
-I will leave here content about what I learn daily that may be important to
-others developers. I hope that it may be also helpful for you.
+This blog aims to be a space where I can publish contents that are imporant to
+me and may be also useful for others developers.
 
 You can find me on
-  [github]({{ site.data.me.socialMediaLinks.github }}),
-  [linkedin]({{ site.data.me.socialMediaLinks.linkedin }}),
-  [twitter]({{ site.data.me.socialMediaLinks.twitter }}),
-  [medium](({{ site.data.me.socialMediaLinks.medium }})) and
-  [stack overflow]({{ site.data.me.stackoverflowUrl }}).
+  [github]({{ site.data.me.links.github }}),
+  [twitter]({{ site.data.me.links.twitter }}),
+  [stack overflow]({{ site.data.me.links.stackoverflow }}),
+  [linkedin]({{ site.data.me.links.linkedin }}),
+  [medium]({{ site.data.me.links.medium }}) and
+  [dev.to]({{ site.data.me.links.devto }}).
 
 ## Posts
-
-Next post coming: _How to work daily with TDD._
 
 {% for post in site.posts %}
   * [{{ post.title }}]({{ post.url }}) <span class="post-date">{{ post.date | date: '%Y %b %d' }}</span>

@@ -1,12 +1,11 @@
 ---
 layout: post
-permalink: /posts/:title
+permalink: /:title
 
 title: What should a developer really catch?
 
 mediumUri: "@fefas/what-should-a-developer-really-catch-dbd250233a9e"
 ---
-# {{ page.title }}
 
 In my first post I would like to write about something that isn't found so often
 on the internet and most ~~experienced~~ developers are missing.
@@ -28,14 +27,14 @@ translate business solutions to a code language that SHOULD solve business
 problems by adding some value somehow and it SHOULD be delivered in the simplest
 and fastest possible way. But we don't!
 
-> _"We are unprofessional"_, Robert Martin already said that.
+> _"We are unprofessional"_, Robert Martin has already said that.
 
 In my short career I've seen more than once smart developers having the
 opportunity to work on an outstanding business model and using that business
 complexity as their motivation to build nice, sophisticated and high-tech
 applications which, as it turned out, ~~helped the company grow up~~ were just
 another group of hard-to-understand words and far far away from the business
-itself. In other words, a waste of time and money resulting in a code that is
+itself. In other words, a waste of time and money resulting in a code that was
 already legacy at the first day after deployment. A total mess!
 
 ![Total Mess](/assets/images/posts/2017-06-18-what-should-a-developer-really-catch%3F-total-mess.jpg)
@@ -66,34 +65,35 @@ judge being the most critical ones.
 
 Many developers, just like me, didn’t pursue software-related degree at
 university. Actually, some of us didn't even go to college; and those who took
-software-related courses realized they didn't know exactly what is required to
+software-related courses realized they didn't study exactly what is required to
 solve real problems. In other words, we teach ourselves almost everything by
 digging the internet.
 
 That proves we are extremely self-motivated and curious. Indeed, we really enjoy
-to learn more and more. The problem is that the internet has so much information
+learning more and more. The problem is that the internet has so much information
 that the beginners **end up placing so much importance on what gives short-term
 results**, that is tools.
 
 Programming languages, frameworks, libraries and so on are important and make
-you feel powerful, but they all are **still just tools**.
+you powerful, but they all are **still just tools**.
 
-A very important point to observe in tools is when you stop to follow that nice
+A very important point to note on tools is when you stop to follow that nice
 framework for a couple of months and then you are suddenly out of date. But
 don't bother! You can read the new documentation and update yourself again
 quickly. Tools are ephemeral, easy to learn, abundant on the web and, trust me,
-most of them don't give a &$%! to your business domain.
+most of them don't give a &$%# to your business domain.
 
 On the other hand, when developers come across some new subject or tool, instead
 of taking the needed time to search and really understand it before coding, they
 go straight ahead and want to adopt it everywhere, because the ~~new silver
-bullet~~ key was discovered. The result (not to say problem) is predictable...
+bullet~~ solution was discovered. The result (not to say problem) is
+predictable...
 
 For me, this kind of developer is the most dangerous, because they normally have
 more work-experience and are still acting like the ninja ones. Their attitude
-only brings premature and wrong use of tools, procedures and methodologies,
-putting the whole business and the collaborators in risk. They have no idea
-about their positions' value.
+brings premature and wrong usage of tools, procedures and methodologies, putting
+the whole business and the collaborators in risk. They have no idea about their
+positions' value.
 
 ## So, what should we really study?
 
@@ -109,8 +109,8 @@ Behavior Driven Development (BDD), Continuous Integration (CI), (real) Object
 Oriented Programming (OOP), DevOps, Agile Manifesto, Software Craftsmanship etc.
 
 I still have a lot to learn about those subjects, but they already changed my
-professional attitude and today I know I am on the right way to become the
-respected developer as I've always dreamed to.
+professional attitude and today I know I am on the right way to become that
+respected developer I've always dreamed to.
 
 Meetups and daily knowledge exchange with team members are all important to
 discuss different readings about those terms, but they alone will still give you
@@ -118,7 +118,7 @@ a limited understanding. Therefore, the only way to have a deep knowledge is by
 searching it by yourself through books, podcasts, events and so on.
 
 The following books list is the main reason I wrote this post. Of course I
-haven't yet read all of them, but the ones I did have changed the way I develop
+haven't read all of them yet, but the ones I did have changed the way I develop
 every couple of pages, turning me into a **more conscious and mature
 developer**:
 
@@ -150,15 +150,14 @@ And you can also follow the authors:
 - [Eric Evans](https://twitter.com/ericevans0)
 - [Rebecca Wirfs-Brock](https://twitter.com/rebeccawb)
 
-> [Eriksen Costa](https://blog.eriksen.com.br) sent me both lists when he was my
-> boss. Thank you!
-
 My recommendation is to start with _The Software Craftsman_ by _Sandro Mancuso_.
 
 I hope you can also find a reference to follow on those books. And remember,
 **simplicity is a keyword**.
 
-> Is there already any T-shirt with "Don't worry and keep it simple"?
+> _Is there already any T-shirt with "Don't worry and keep it simple"?_
 
-> Thanks [@edudobay](https://twitter.com/esdobay) for helping me with typo and
-> english mistakes.
+> Thank you [Eriksen Costa](https://blog.eriksen.com.br) for sending both lists
+> when you were my boss and also thank you [Eduardo
+> Dobay](https://twitter.com/esdobay) for helping me with typo and english
+> mistakes.
