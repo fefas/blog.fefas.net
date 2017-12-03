@@ -6,7 +6,6 @@ title: What should a developer really catch?
 
 mediumUri: "@fefas/what-should-a-developer-really-catch-dbd250233a9e"
 ---
-# {{ page.title }}
 
 In my first post I would like to write about something that isn't found so often
 on the internet and most ~~experienced~~ developers are missing.

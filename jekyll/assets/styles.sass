@@ -28,8 +28,8 @@ $blockquote-margin: $paragraph-margin
 $blockquote-padding: 0.5 * $font-size 0.5 * $font-size 0.5 * $font-size 1.5 * $font-size
 $blockquote-border-left: 4px solid #ddd
 
-$hX-margin-top: 1 * $font-size
-$hX-margin-bottom: 1 * $font-size
+$hX-margin-top: 1.5 * $font-size
+$hX-margin-bottom: 0
 $hX-font-weight: $font-weight-bold
 $h1-font-size: 2 * $font-size
 $h2-font-size: 1.5 * $font-size
@@ -41,6 +41,7 @@ $wrapper-padding: 1 * $font-size 2 * $font-size
 
 $image-width: 100%
 
+$content-list-margin: $font-size 0
 $content-list-style-type: none
 $content-list-item-before-chars: "> "
 $content-list-item-padding: 0 0 0 $font-size
@@ -151,6 +152,7 @@ main
     width: $image-width
 
   ul
+    margin: $content-list-margin
     padding: $no-padding
     list-style-type: $content-list-style-type
 
@@ -166,6 +168,10 @@ main
       &:before
         font-size: $font-size
         content: $content-list-item-before-chars
+
+article
+  span.post-date
+    color: $font-color-subtle
 
 footer
   margin-top: $footer-margin-top
