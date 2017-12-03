@@ -10,7 +10,6 @@ RUN bundle install
 
 COPY ./jekyll/_config.yml /usr/src/_config.yml
 COPY ./jekyll/_data /usr/src/_data
-COPY ./jekyll/_includes /usr/src/_includes
 COPY ./jekyll/_layouts /usr/src/_layouts
 COPY ./jekyll/_plugins /usr/src/_plugins
 COPY ./jekyll/_posts /usr/src/_posts
