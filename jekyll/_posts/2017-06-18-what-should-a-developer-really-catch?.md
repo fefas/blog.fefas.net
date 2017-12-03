@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /posts/:title
+permalink: /:title
 
 title: What should a developer really catch?
 
