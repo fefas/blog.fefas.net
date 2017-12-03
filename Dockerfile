@@ -1,4 +1,4 @@
-FROM ruby:2.4 as jekyll
+FROM ruby:2.4 AS jekyll
 
 WORKDIR /usr/src
 
