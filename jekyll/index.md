@@ -6,8 +6,8 @@ permalink: /
 # {{ site.data.me.name }} <span class="nickname">{{ site.data.me.nickname }}</span>
 
 Hello, World! My name is {{ site.data.me.name }}, aka <span class="nickname"> {{
-site.data.me.nickname }}</span>, and I'm Software Developer, Physicist, Clean
-Coder and TDD evangelist who delivers software ASAP (As Simple As Possible).
+site.data.me.nickname }}</span>, and I'm a Clean Coder and TDD evangelist who
+delivers software ASAP (As Simple As Possible).
 
 My personal goal is to improve peoples' lives through my tech skills while
 contributing to open source projects and working at companies engaged in
