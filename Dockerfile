@@ -2,8 +2,8 @@ FROM ruby:2.4 AS jekyll
 
 WORKDIR /usr/src
 
-COPY ./.git /usr/src/.git
 COPY ./jekyll /usr/src
+COPY ./.git /usr/src/.git
 
 RUN bundle install && \
     jekyll build --destination _site
