@@ -15,5 +15,5 @@ services:
             - ./jekyll/_layouts:/usr/src/_layouts
             - ./jekyll/_plugins:/usr/src/_plugins
             - ./jekyll/_posts:/usr/src/_posts
+            - ./jekyll/index.md:/usr/src/index.md
             - ./jekyll/assets:/usr/src/assets
-            - ./jekyll/pages:/usr/src/pages
