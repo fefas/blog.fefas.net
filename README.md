@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/fefas/blog.fefas.net.svg?branch=master)](https://travis-ci.org/fefas/blog.fefas.net)
+[![Build Status](https://img.shields.io/travis/fefas/blog.fefas.net/master.svg?style=flat-square)](https://travis-ci.org/fefas/blog.fefas.net)
 
 This is the source code of my personal web blog: https://blog.fefas.net.
 
