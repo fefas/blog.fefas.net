@@ -12,4 +12,6 @@ FROM nginx:1.13
 
 COPY --from=jekyll /usr/src/_site /usr/share/nginx/html
 
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
 EXPOSE 80
