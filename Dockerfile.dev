@@ -14,6 +14,7 @@ COPY ./jekyll/_layouts /usr/src/_layouts
 COPY ./jekyll/_plugins /usr/src/_plugins
 COPY ./jekyll/_posts /usr/src/_posts
 COPY ./jekyll/index.md /usr/src/index.md
+COPY ./jekyll/not-found.md /usr/src/not-found.md
 COPY ./jekyll/assets /usr/src/assets
 
 EXPOSE 80

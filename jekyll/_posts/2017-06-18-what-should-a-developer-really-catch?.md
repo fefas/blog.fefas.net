@@ -4,7 +4,8 @@ permalink: /:title
 
 title: What should a developer really catch?
 
-mediumUri: "@fefas/what-should-a-developer-really-catch-dbd250233a9e"
+mediumLink: "what-should-a-developer-really-catch-dbd250233a9e"
+devtoLink: "what-should-a-developer-really-catch"
 ---
 
 In my first post I would like to write about something that isn't found so often

@@ -8,9 +8,5 @@ googleAnalytics:
   id: UA-53252365-5
 
 exclude:
-  - Dockerfile
-  - docker-compose.yml
   - Gemfile
   - Gemfile.lock
-  - LICENSE
-  - README.md

@@ -1,9 +1,9 @@
-FROM ruby:2.4 as jekyll
+FROM ruby:2.4 AS jekyll
 
 WORKDIR /usr/src
 
-COPY ./.git /usr/src/.git
 COPY ./jekyll /usr/src
+COPY ./.git /usr/src/.git
 
 RUN bundle install && \
     jekyll build --destination _site
@@ -11,5 +11,7 @@ RUN bundle install && \
 FROM nginx:1.13
 
 COPY --from=jekyll /usr/src/_site /usr/share/nginx/html
+
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
