@@ -8,7 +8,7 @@ COPY ./.git /usr/src/.git
 RUN bundle install && \
     jekyll build --destination _site
 
-FROM nginx:1.13
+FROM nginx:1.13.7-alpine
 
 COPY --from=jekyll /usr/src/_site /usr/share/nginx/html
 
