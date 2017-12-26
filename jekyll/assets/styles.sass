@@ -12,7 +12,9 @@ $font-color-subtle: #bbb
 $font-weight-normal: 300
 $font-weight-bold: 500
 
-$paragraph-margin: $font-size 0
+$paragraph-margin-top: $font-size
+$paragraph-margin-bottom: $font-size
+$paragraph-margin: $paragraph-margin-top 0 $paragraph-margin-bottom 0
 
 $strong-font-weight: $font-weight-bold
 
@@ -27,6 +29,7 @@ $blockquote-background-color: #f8f8f8
 $blockquote-margin: $paragraph-margin
 $blockquote-padding: 0.5 * $font-size 0.5 * $font-size 0.5 * $font-size 1.5 * $font-size
 $blockquote-border-left: 4px solid #ddd
+$blockquote-paragraph-between-margin: $font-size
 
 $hX-margin-top: 1.5 * $font-size
 $hX-margin-bottom: 0
@@ -136,6 +139,9 @@ blockquote
 
   p
     margin: $no-margin
+
+    & + p
+      margin-top: $paragraph-margin-top
 
   a, a:hover, a:visited
     color: $blockquote-link-color
