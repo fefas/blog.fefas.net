@@ -11,7 +11,6 @@ services:
         volumes:
             - ./.git:/usr/src/.git
             - ./jekyll/_config.yml:/usr/src/_config.yml
-            - ./jekyll/_data:/usr/src/_data
             - ./jekyll/_layouts:/usr/src/_layouts
             - ./jekyll/_plugins:/usr/src/_plugins
             - ./jekyll/_posts:/usr/src/_posts
