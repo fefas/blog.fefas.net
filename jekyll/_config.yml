@@ -1,3 +1,20 @@
+title: Felipe Martins fefas
+description:
+  Blog of the software developer Felipe Martins, aka fefas, with content that
+  may help others developers to work better.
+
+author:
+  name: Felipe Martins
+  nickname: fefas
+  email: me@fefas.net
+  links:
+    github: https://github.com/fefas
+    linkedin: https://br.linkedin.com/in/fefas
+    twitter: https://twitter.com/eufefas
+    stackoverflow: https://stackoverflow.com/users/4259675/felipe-martins
+    medium: https://medium.com/@fefas
+    devto: https://dev.to/fefas
+
 timezone: America/Sao_Paulo
 encoding: UTF-8
 
