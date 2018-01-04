@@ -1,4 +1,6 @@
 googleAnalyticsId: UA-53252365-7
 
+show_drafts: true
+
 sass:
   style: full
