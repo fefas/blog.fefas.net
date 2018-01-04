@@ -15,14 +15,14 @@ author:
     medium: https://medium.com/@fefas
     devto: https://dev.to/fefas
 
+googleAnalyticsId: UA-53252365-5
+
 timezone: America/Sao_Paulo
 encoding: UTF-8
 
 plugins:
   - jekyll-sitemap
 
-googleAnalytics:
-  id: UA-53252365-5
 
 exclude:
   - Gemfile
