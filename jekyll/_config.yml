@@ -23,6 +23,8 @@ encoding: UTF-8
 plugins:
   - jekyll-sitemap
 
+sass:
+  style: compressed
 
 exclude:
   - Gemfile
