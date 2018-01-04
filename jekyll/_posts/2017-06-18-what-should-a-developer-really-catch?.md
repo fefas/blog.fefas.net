@@ -5,7 +5,7 @@ permalink: /:title
 title: What should a developer really catch?
 
 mediumId: "what-should-a-developer-really-catch-dbd250233a9e"
-devtoId: "what-should-a-developer-really-catch"
+devtoId: "what-should-a-developer-really-catch-1a6j"
 ---
 
 In my first post I would like to write about something that isn't found so often
