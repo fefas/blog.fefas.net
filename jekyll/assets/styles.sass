@@ -168,13 +168,16 @@ main
       padding: $content-list-item-padding
       text-indent: $content-list-text-indent
 
-      span.post-date
-        float: right
-        color: $font-color-subtle
-
       &:before
         font-size: $font-size
         content: $content-list-item-before-chars
+
+      p
+        display: initial
+
+      span.post-date
+        float: right
+        color: $font-color-subtle
 
 article
   span.post-date
