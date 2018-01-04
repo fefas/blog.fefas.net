@@ -4,8 +4,8 @@ permalink: /:title
 
 title: TDD is an ethical matter
 
-mediumLink: "tdd-is-an-ethical-matter-dbd250233a9e"
-devtoLink: "tdd-is-an-ethical-matter"
+mediumId: "tdd-is-an-ethical-matter-dbd250233a9e"
+devtoId: "tdd-is-an-ethical-matter"
 ---
 
 ## My first talk
