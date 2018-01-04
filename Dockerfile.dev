@@ -9,7 +9,9 @@ COPY ./jekyll/Gemfile.lock /usr/src/Gemfile.lock
 RUN bundle install
 
 COPY ./jekyll/_config.yml /usr/src/_config.yml
+COPY ./jekyll/_config_dev.yml /usr/src/_config_dev.yml
 COPY ./jekyll/_layouts /usr/src/_layouts
+COPY ./jekyll/_includes /usr/src/_includes
 COPY ./jekyll/_plugins /usr/src/_plugins
 COPY ./jekyll/_posts /usr/src/_posts
 COPY ./jekyll/index.md /usr/src/index.md
@@ -18,4 +20,4 @@ COPY ./jekyll/assets /usr/src/assets
 
 EXPOSE 80
 
-CMD ["jekyll", "serve", "--watch", "--port", "80", "--host", "0.0.0.0", "--future", "true"]
+CMD ["jekyll", "serve", "--watch", "--port", "80", "--host", "0.0.0.0", "--config", "_config.yml,_config_dev.yml"]
