@@ -52,6 +52,8 @@ $content-list-item-before-chars: "> "
 $content-list-item-padding: 0 0 0 $font-size
 $content-list-text-indent: -$font-size
 $content-list-item-margin: 2px 0
+$content-list-paragraph-display: initial
+$content-list-post-date-float: right
 
 $post-page-nav-link-color: $font-color
 $post-page-nav-link-margin: $font-size
@@ -177,10 +179,10 @@ main
         content: $content-list-item-before-chars
 
       p
-        display: initial
+        display: $content-list-paragraph-display
 
       span.post-date
-        float: right
+        float: $content-list-post-date-float
         color: $font-color-subtle
 
 article
