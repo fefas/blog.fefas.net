@@ -35,7 +35,7 @@ everywhere..
 
 _He was experiencing bad code.._
 
-![Washing bunch of durty dishes](/assets/images/posts/2018-01-20-clean-code-bullshit-or-common-sense-washing-bunch-of-dirty-dishes.jpg)
+{% include post-image name="Washing bunch of dirty dishes" %}
 
 ## Why does it happen so commonly?
 
@@ -122,7 +122,7 @@ feature and unit tests for each codebase, automated deployment, hexagonal
 archtecture.. well.. a lot of themes which are unreachable and philosophical for
 many.. a lot of bullshit for them..
 
-![TDD chaos-vs-time graph](/assets/images/posts/2018-01-20-clean-code-bullshit-or-common-sense-TDD-chaos-time-graph.jpg)
+{% include post-image name="TDD chaos-vs-time graph" %}
 
 It wasn't easy.. it was challenging. However the result of our work turned into
 a product with almost zero bug rate. When a new bug is discovered, a new test
