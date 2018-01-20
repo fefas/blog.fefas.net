@@ -130,8 +130,8 @@ scenario is written. Deployments are fast, safe and can be executed anytime. New
 features are easily to add and the old ones easy to change.. that are the TDD
 benefits.. that is an agile team!
 
-> We should fight against bad code and always do our best :) .. there is only
-> one error: not to try it..
+> We should fight against bad code and always do our best. There is only
+> one error: not to try it.. :)
 
 Here are the referneces:
 
