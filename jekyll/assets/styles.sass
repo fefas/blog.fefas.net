@@ -42,7 +42,9 @@ $nickname-font-color: $font-color-subtle
 $wrapper-max-width: 770px
 $wrapper-padding: 1 * $font-size 2 * $font-size
 
-$image-width: 100%
+$image-display: block
+$image-margin: auto
+$image-max-width: 100%
 
 $content-list-margin: $font-size 0
 $content-list-style-type: none
@@ -156,7 +158,9 @@ blockquote
 
 main
   img
-    width: $image-width
+    display: $image-display
+    margin: $image-margin
+    max-width: $image-max-width
 
   ul
     margin: $content-list-margin
