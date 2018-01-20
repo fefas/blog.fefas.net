@@ -1,6 +1,7 @@
 ---
 layout: common
 permalink: /not-found
+sitemap: false
 ---
 
 # 404 Not Found
