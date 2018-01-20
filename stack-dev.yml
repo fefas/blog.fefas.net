@@ -10,12 +10,4 @@ services:
             - 80:80
         volumes:
             - ./.git:/usr/src/.git
-            - ./jekyll/_config.yml:/usr/src/_config.yml
-            - ./jekyll/_config_dev.yml:/usr/src/_config_dev.yml
-            - ./jekyll/_layouts:/usr/src/_layouts
-            - ./jekyll/_includes:/usr/src/_includes
-            - ./jekyll/_plugins:/usr/src/_plugins
-            - ./jekyll/_posts:/usr/src/_posts
-            - ./jekyll/index.md:/usr/src/index.md
-            - ./jekyll/not-found.md:/usr/src/not-found.md
-            - ./jekyll/assets:/usr/src/assets
+            - ./jekyll/:/usr/src/
