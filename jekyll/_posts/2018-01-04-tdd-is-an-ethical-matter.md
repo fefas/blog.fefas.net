@@ -76,7 +76,7 @@ you finally agree **TDD is the opposite of a waste of time**.
 I am sure you will be quickly asking yourself: _Why are some developers still
 complaining about test first?_
 
-![Total Mess](/assets/images/posts/2018-01-02-tdd-is-an-ethical-matter-scream.jpg)
+{% include post-image name="Scream" %}
 
 ## Why is TDD an ethical matter?
 
