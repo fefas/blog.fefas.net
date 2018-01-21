@@ -2,6 +2,7 @@
 layout: common
 permalink: /not-found
 sitemap: false
+title: Not Found
 ---
 
 # 404 Not Found
