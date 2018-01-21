@@ -28,7 +28,7 @@ helpful to improve both legibility and quality of the tests.
 The goal of the talk was to give an introduction to the basics elements that a
 developer needs to write _test first_ and an overview how the tests should guide
 the development process. However those who were interested on the subject, would
-still need to go deeper by theirselfs.
+still need to go deeper by theirselves.
 
 A good summary: no waste, no effort on useless stuff, no "what if this happens?
 Or what if that happens?"... **TDD gives us the opportunity to focus on the
