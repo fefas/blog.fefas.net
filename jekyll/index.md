@@ -1,6 +1,8 @@
 ---
 layout: common
 permalink: /
+
+title: Felipe Martins fefas
 ---
 
 # {{ site.author.name }} <span class="nickname">{{ site.author.nickname }}</span>
