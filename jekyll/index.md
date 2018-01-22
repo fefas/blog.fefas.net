@@ -19,12 +19,12 @@ This blog aims to be a space where I can publish contents that are imporant to
 me and may be also useful for others developers.
 
 You can find me on
-  [github]({{ site.author.links.github }}),
-  [twitter]({{ site.author.links.twitter }}),
-  [stack overflow]({{ site.author.links.stackoverflow }}),
-  [linkedin]({{ site.author.links.linkedin }}),
-  [medium]({{ site.author.links.medium }}) and
-  [dev.to]({{ site.author.links.devto }}).
+  [github](https://github.com/{{ site.author.nickname }}),
+  [twitter](https://twitter.com/{{ site.author.twitter }}),
+  [stack overflow](https://stackoverflow.com/users/{{ site.author.stackoverflow }}),
+  [linkedin](https://br.linkedin.com/in/{{ site.author.nickname }}),
+  [medium](https://medium.com/@{{ site.author.nickname }}) and
+  [dev.to](https://dev.to/{{ site.author.nickname }}).
 
 ## Posts
 
