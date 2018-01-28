@@ -34,7 +34,7 @@ classes didn't validate themselves.. there were getters and setters everywhere..
 
 _He was experiencing bad code.._
 
-{% include post-image name="Washing bunch of dirty dishes" %}
+{% postImage Washing bunch of dirty dishes %}
 
 ## Why does it happen so commonly?
 
@@ -124,7 +124,7 @@ each codebase, automated deployment, hexagonal archtecture.. well.. a lot of
 themes which are unreachable and philosophical for many.. a lot of bullshit for
 them..
 
-{% include post-image name="TDD chaos-vs-time graph" %}
+{% postImage TDD chaos-vs-time graph %}
 
 It wasn't easy.. it was challenging. However, the result of our work turned into
 a product with almost zero bug rate. When a new bug is discovered, a new test

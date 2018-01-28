@@ -1,5 +1,0 @@
-{% assign imageAlt = include.name %}
-{% assign imagePreffix = page.path | replace: '_posts/', '' | replace: '.md', '' %}
-{% assign imageName = include.name | replace: ' ', '-' | downcase %}
-
-![{{ imageAlt }}](/assets/images/posts/{{ imagePreffix }}-{{ imageName }}.jpg)
