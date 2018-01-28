@@ -76,7 +76,7 @@ you finally agree **TDD is the opposite of a waste of time**.
 I am sure you will be quickly asking yourself: _Why are some developers still
 complaining about test first?_
 
-{% include post-image name="Scream" %}
+{% postImage Scream %}
 
 ## Why is TDD an ethical matter?
 
