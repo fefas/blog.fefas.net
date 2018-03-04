@@ -3,6 +3,7 @@ layout: post
 permalink: /:title
 
 title: Clean Code, bullshit or common sense?
+image: Washing bunch of dirty dishes
 ---
 
 ## Common story
