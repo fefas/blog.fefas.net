@@ -3,6 +3,7 @@ layout: post
 permalink: /:title
 
 title: TDD is an ethical matter
+image: Scream
 
 mediumId: "tdd-is-an-ethical-matter-17b8ae415fb2"
 devtoId: "tdd-is-an-ethical-matter-19h4"

@@ -3,6 +3,7 @@ layout: post
 permalink: /:title
 
 title: What should a developer really catch?
+image: Total Mess
 
 mediumId: "what-should-a-developer-really-catch-dbd250233a9e"
 devtoId: "what-should-a-developer-really-catch-1a6j"
