@@ -4,4 +4,4 @@ show_drafts: true
 future: true
 
 sass:
-  style: full
+    style: full
