@@ -6,10 +6,8 @@ COPY ./jekyll/Gemfile /usr/src/Gemfile
 COPY ./jekyll/Gemfile.lock /usr/src/Gemfile.lock
 
 RUN bundle install
-
-COPY ./.git /usr/src/.git
-COPY ./jekyll/ /usr/src/
-
-EXPOSE 80
+COPY ./ /usr/src/
 
 CMD ["jekyll", "serve", "--watch", "--port", "80", "--host", "0.0.0.0", "--config", "_config.yml,_config_dev.yml"]
+
+EXPOSE 80

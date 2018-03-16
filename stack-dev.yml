@@ -5,9 +5,7 @@ services:
         build:
           context: ./
           dockerfile: Dockerfile.dev
-        image: fefas/blog.fefas.net:dev
         ports:
             - 80:80
         volumes:
-            - ./.git:/usr/src/.git
-            - ./jekyll/:/usr/src/
+            - ./:/usr/src/
