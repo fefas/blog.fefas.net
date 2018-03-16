@@ -1,15 +1,15 @@
 url: https://blog.fefas.net
 sourceCodeLink: https://github.com/fefas/blog.fefas.net
 description:
-  Blog of the software developer Felipe Martins, aka fefas, with content that
-  may help others developers to work better.
+    Blog of the software developer Felipe Martins, aka fefas, with content that
+    may help others developers to work better.
 
 author:
-  name: Felipe Martins
-  nickname: fefas
-  email: me@fefas.net
-  twitter: eufefas
-  stackoverflow: 4259675/felipe-martins
+    name: Felipe Martins
+    nickname: fefas
+    email: me@fefas.net
+    twitter: eufefas
+    stackoverflow: 4259675/felipe-martins
 
 analyticsId: UA-53252365-5
 
@@ -17,12 +17,12 @@ timezone: America/Sao_Paulo
 encoding: UTF-8
 
 plugins:
-  - jekyll-sitemap
-  - jekyll-feed
+    - jekyll-sitemap
+    - jekyll-feed
 
 sass:
-  style: compressed
+    style: compressed
 
 exclude:
-  - Gemfile
-  - Gemfile.lock
+    - Gemfile
+    - Gemfile.lock
