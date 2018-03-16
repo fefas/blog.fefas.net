@@ -1,8 +1,8 @@
 ---
 layout: common
-permalink: /
 
 title: Felipe Martins fefas
+permalink: /
 ---
 
 # {{ site.author.name }} <span class="nickname">{{ site.author.nickname }}</span>
