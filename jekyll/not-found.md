@@ -1,8 +1,10 @@
 ---
 layout: common
-permalink: /not-found
-sitemap: false
+
 title: Not Found
+permalink: /not-found
+
+sitemap: false
 ---
 
 # 404 Not Found

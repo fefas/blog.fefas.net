@@ -1,5 +1,5 @@
 module Jekyll
-  class PostImage < Liquid::Tag
+  class PostImageA < Liquid::Tag
 
     def initialize(tagName, imageName, tokens)
       super
@@ -23,4 +23,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('postImage', Jekyll::PostImage)
+Liquid::Template.register_tag('postImage', Jekyll::PostImageA)

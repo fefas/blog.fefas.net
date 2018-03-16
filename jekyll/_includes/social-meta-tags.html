@@ -1,0 +1,23 @@
+{% assign twitterCard = 'summary' %}
+{% assign ogType = 'website' %}
+
+{% if layout.is_post %}
+  {% assign twitterCard = 'summary_large_image' %}
+  {% assign ogType = 'article' %}
+{% endif %}
+
+<meta name="twitter:card" content="{{ twitterCard }}"/>
+<meta name="twitter:creator" content="@{{ site.author.twitter }}">
+<meta name="twitter:title" content="{{ page.title }}">
+
+<meta property="og:title" content="{{ page.title }}"/>
+<meta property="og:type" content="{{ ogType }}" />
+<meta property="og:url" content="{{ site.url }}" />
+<meta property="og:description" content="Description Here"/>
+
+{% if layout.is_post %}
+  <meta name="twitter:image" content="{% postImageUrl %}">
+  <meta name="twitter:image:alt" content="{{ page.image }}">
+
+  <meta property="og:image" content="{% postImageUrl %}"/>
+{% endif %}
