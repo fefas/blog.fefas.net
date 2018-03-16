@@ -5,8 +5,14 @@ is_post: true
 <nav>
   <a href="/">&lt;&lt; Back</a>
   <a href="https://twitter.com/share">Tweet it</a>
-  {% include medium-post-link.html %}
-  {% include devto-post-link.html %}
+
+  {% if page.mediumId %}
+    <a href="{{ site.author.links.medium }}{{ page.mediumId }}">Read on Medium</a>
+  {% endif %}
+
+  {% if page.devtoId %}
+    <a href="{{ site.author.links.devto }}{{ page.devtoId }}">Read on Dev.to</a>
+  {% endif %}
 </nav>
 
 <main>
