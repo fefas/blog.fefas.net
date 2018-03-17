@@ -7,11 +7,11 @@ is_post: true
   <a href="https://twitter.com/share">Tweet it</a>
 
   {% if page.mediumId %}
-    <a href="{{ site.author.links.medium }}{{ page.mediumId }}">Read on Medium</a>
+    <a href="{{ site.author.links.medium }}/{{ page.mediumId }}">Read on Medium</a>
   {% endif %}
 
   {% if page.devtoId %}
-    <a href="{{ site.author.links.devto }}{{ page.devtoId }}">Read on Dev.to</a>
+    <a href="{{ site.author.links.devto }}/{{ page.devtoId }}">Read on Dev.to</a>
   {% endif %}
 </nav>
 

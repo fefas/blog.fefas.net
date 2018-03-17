@@ -8,8 +8,14 @@ author:
     name: Felipe Martins
     nickname: fefas
     email: me@fefas.net
-    twitter: eufefas
-    stackoverflow: 4259675/felipe-martins
+
+    links:
+        github: https://github.com/fefas
+        twitter: https://twitter.com/eufefas
+        stackoverflow: https://stackoverflow.com/users/4259675/felipe-martins
+        linkedin: https://br.linkedin.com/in/fefas
+        devto: https://dev.to/fefas
+        medium: https://medium.com/@fefas
 
 analyticsId: UA-53252365-5
 
