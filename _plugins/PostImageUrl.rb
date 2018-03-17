@@ -5,7 +5,7 @@ module Jekyll
       imagePrefix = context.registers[:page].path[7..-4]
       imageName = context.registers[:page].image.downcase.gsub(/\s/, '-')
 
-      '/assets/images/posts/' + imagePrefix + '-' + imageName + '.jpg'
+      '/assets/images/' + imagePrefix + '-' + imageName + '.jpg'
     end
 
   end
