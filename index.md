@@ -21,7 +21,7 @@ me and may be also useful for others developers.
 You can find me on
   [github]({{ site.author.links.github }}),
   [twitter]({{ site.author.links.twitter }}),
-  [stack overflow]({{ site.author.links.stackoverflow }}),
+  [stack overflow]({{ site.author.links.stackOverflow }}),
   [linkedin]({{ site.author.links.linkedin }}),
   [medium]({{ site.author.links.medium }}) and
   [dev.to]({{ site.author.links.devto }}).
