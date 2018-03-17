@@ -1,8 +1,13 @@
 url: https://blog.fefas.net
-sourceCodeLink: https://github.com/fefas/blog.fefas.net
 description:
     Blog of the software developer Felipe Martins, aka fefas, with content that
     may help others developers to work better.
+
+links:
+    sourceCode: https://github.com/fefas/blog.fefas.net
+    licenses:
+        content: https://creativecommons.org/licenses/by-sa/4.0
+        sourceCode: https://github.com/fefas/blog.fefas.net/blob/master/LICENSE
 
 author:
     name: Felipe Martins
@@ -12,7 +17,7 @@ author:
     links:
         github: https://github.com/fefas
         twitter: https://twitter.com/eufefas
-        stackoverflow: https://stackoverflow.com/users/4259675/felipe-martins
+        stackOverflow: https://stackoverflow.com/users/4259675/felipe-martins
         linkedin: https://br.linkedin.com/in/fefas
         devto: https://dev.to/fefas
         medium: https://medium.com/@fefas
