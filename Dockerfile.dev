@@ -2,9 +2,7 @@ FROM ruby:2.4
 
 WORKDIR /usr/src
 
-COPY ./jekyll/Gemfile /usr/src/Gemfile
-COPY ./jekyll/Gemfile.lock /usr/src/Gemfile.lock
-
+COPY ./Gemfile* /usr/src/
 RUN bundle install
 COPY ./ /usr/src/
 
