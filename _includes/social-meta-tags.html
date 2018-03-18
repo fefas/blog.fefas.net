@@ -1,23 +1,27 @@
+{% assign title = page.title %}
+{% assign description = site.description %}
+{% assign url = page.url | absolute_url %}
+{% assign type = 'website' %}
 {% assign twitterCard = 'summary' %}
-{% assign ogType = 'website' %}
+{% assign twitterNickname = site.author.twitterNickname %}
 
 {% if layout.is_post %}
+  {% assign type = 'article' %}
   {% assign twitterCard = 'summary_large_image' %}
-  {% assign ogType = 'article' %}
+  {% assign imageAlt = page.image %}
+  {% assign imageUrl = page.image | post_image_url %}
 {% endif %}
 
+<meta property="og:title" content="{{ title }}"/>
+<meta property="og:type" content="{{ type }}" />
+<meta property="og:url" content="{{ url }}"/>
+<meta property="og:description" content="{{ description }}"/>
 <meta name="twitter:card" content="{{ twitterCard }}"/>
-<meta name="twitter:creator" content="@{{ site.author.twitter }}">
-<meta name="twitter:title" content="{{ page.title }}">
-
-<meta property="og:title" content="{{ page.title }}"/>
-<meta property="og:type" content="{{ ogType }}" />
-<meta property="og:url" content="{{ site.url }}" />
-<meta property="og:description" content="Description Here"/>
+<meta name="twitter:creator" content="@{{ twitterNickname }}">
+<meta name="twitter:title" content="{{ title }}"/>
 
 {% if layout.is_post %}
-  <meta name="twitter:image" content="{% postImageUrl %}">
-  <meta name="twitter:image:alt" content="{{ page.image }}">
-
-  <meta property="og:image" content="{% postImageUrl %}"/>
+  <meta property="og:image" content="{{ imageUrl }}"/>
+  <meta name="twitter:image" content="{{ imageUrl }}"/>
+  <meta name="twitter:image:alt" content="{{ imageAlt }}">
 {% endif %}
