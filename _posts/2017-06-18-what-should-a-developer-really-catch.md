@@ -39,7 +39,7 @@ another group of hard-to-understand words and far far away from the business
 itself. In other words, a waste of time and money resulting in a code that was
 already legacy at the first day after deployment. A total mess!
 
-{% postImage Total Mess %}
+{{ 'Total Mess' | post_image }}
 
 What I am trying to put in words is strictly related to the professional
 attitude of a software developer. You are never going to be a respected CTO or

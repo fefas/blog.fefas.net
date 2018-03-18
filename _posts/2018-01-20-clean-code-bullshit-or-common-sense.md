@@ -35,7 +35,7 @@ classes didn't validate themselves.. there were getters and setters everywhere..
 
 _He was experiencing bad code.._
 
-{% postImage Washing bunch of dirty dishes %}
+{{ 'Washing bunch of dirty dishes' | post_image }}
 
 ## Why does it happen so commonly?
 
@@ -125,7 +125,7 @@ each codebase, automated deployment, hexagonal archtecture.. well.. a lot of
 themes which are unreachable and philosophical for many.. a lot of bullshit for
 them..
 
-{% postImage TDD chaos-vs-time graph %}
+{{ 'TDD chaos-vs-time graph' | post_image }}
 
 It wasn't easy.. it was challenging. However, the result of our work turned into
 a product with almost zero bug rate. When a new bug is discovered, a new test
