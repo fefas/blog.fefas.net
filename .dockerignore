@@ -1,4 +1,7 @@
-Dockerfile
-LICENSE
+.gitignore
+.travis.yml
 _site
-docker-compose.yml
+Dockerfile.dev
+LICENSE
+README.md
+stack-dev.yml
