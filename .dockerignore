@@ -1,7 +1,0 @@
-.gitignore
-.travis.yml
-_site
-Dockerfile.dev
-LICENSE
-README.md
-stack-dev.yml
