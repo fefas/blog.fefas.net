@@ -1,9 +1,7 @@
 [build]
   publish = "_site/"
   command = "jekyll build --config $CONFIG_FILES"
+  environment = { CONFIG_FILES = "_config.yml,_config_dev.yml" }
 
-[context.production.environment]
-  CONFIG_FILES = "_config.yml"
-
-[context.branch-deploy.environment]
-  CONFIG_FILES = "_config.yml,_config_dev.yml"
+[context.production]
+  environment = { CONFIG_FILES = "_config.yml" }
