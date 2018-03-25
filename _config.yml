@@ -35,5 +35,10 @@ sass:
     style: compressed
 
 exclude:
+    - Dockerfile.dev
     - Gemfile
     - Gemfile.lock
+    - LICENSE
+    - netlify.toml
+    - README.md
+    - stack-dev.yml
