@@ -1,3 +1,9 @@
 [build]
   publish = "_site/"
-  command = "jekyll build -d _site/ -b https://test.fefas.net"
+  command = "jekyll build --config $CONFIG_FILES"
+
+[context.production.environment]
+  CONFIG_FILES = "_config.yml"
+
+[context.branch-deploy.environment]
+  CONFIG_FILES = "_config.yml,_config_dev.yml"
