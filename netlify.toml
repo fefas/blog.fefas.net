@@ -1,7 +1,6 @@
 [build]
   publish = "_site/"
-  command = "jekyll build --config $CONFIG_FILES --baseurl $BASEURL"
-  environment = { CONFIG_FILES = "_config.yml,_config_dev.yml", BASEURL = "DEPLOY_PRIME_URL" }
+  command = "jekyll build --config '_config.yml,_config_dev.yml' --baseurl $DEPLOY_PRIME_URL"
 
 [context.production]
-  environment = { CONFIG_FILES = "_config.yml", BASERUL = "URL" }
+  command = "jekyll build --config '_config.yml' --baseurl $URL"
