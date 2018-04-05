@@ -4,8 +4,6 @@ permalink: /:title
 
 title: Clean Code, bullshit or common sense?
 image: Washing bunch of dirty dishes
-
-published: false
 ---
 
 ## Common story
@@ -24,8 +22,8 @@ if statements creating so many paths to go through... namespaces 10 levels
 deep... a large usage of classes extensions..
 
 Almost every task would be to solve a bug. Some of them were created long time
-ago and others were just introduced by a new fix recently. Trying to investigate
-the code history to figure out the reason of some changes and how they could be
+ago and others were introduced recently by a new fix. Trying to investigate the
+code history to figure out the reason of some changes and how they could be
 related with other parts of the code wasn't even helpful because the commits
 weren't well-organized and had poor messages...
 
