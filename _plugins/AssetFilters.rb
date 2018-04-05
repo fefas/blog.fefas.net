@@ -3,7 +3,7 @@ module Jekyll
     def asset_url(file)
         raise "Git is not installed" unless isGitInstalled?
 
-      "/assets/#{file}?version=#{gitHash}"
+      absolute_url "/assets/#{file}?version=#{gitHash}"
     end
 
     def image_url(imageFile)
