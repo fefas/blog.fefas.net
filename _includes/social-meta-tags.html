@@ -9,7 +9,7 @@
   {% assign type = 'article' %}
   {% assign twitterCard = 'summary_large_image' %}
   {% assign imageAlt = page.image %}
-  {% assign imageUrl = page.image | post_image_url %}
+  {% assign imageUrl = page.image | post_image_url | absolute_url %}
 {% endif %}
 
 <meta property="og:title" content="{{ title }}"/>
