@@ -82,19 +82,17 @@ However, we still have a big problem there...
 
 Is it really a running software valuable?
 
-A company which highly depends on new technologies to be running and wants to be
+A company which highly depends on technology to be running and wants to be
 innovative will never achieve its goals when software turns a maintanace issue
 instead of pushing up the business. Coming back to the Bob's situation, it is
 almost impossible to add or change behaviors of the application. How would be
 possible to delivery a new feature which would change the business workflow
 without breaking anything else? The risk is too high, the unknown side effects
 could be catastrophic and, in this way, the company is trying to survive instead
-of being innovative while the competition is out there rising up.
+of being innovative... it's just brute force... the competition is out there
+rising up.
 
-Even worse... when the mess reaches a point where the developers are fixing just
-created bugs by their own changes... it's hard for me to see the value being
-generated. In other words, the job now is to fix the problems introduced by the
-same team... the team is maintaining itself... it's just brute force...
+It's hard for me to see the value being generated given this scenario...
 
 > System making money today doesn't mean system still making money in the
 > future.
@@ -105,11 +103,11 @@ reason**.
 
 Clean code, aka having care for code, aka testing first, is the way to achieve a
 software the business can truthly grow with. Let's study, let's improve our
-craft, let's learn how to manage the rush.
+craft, let's learn how to manage the rush!
 
-> As developers, it's our responsability to write clean code... that isn't to
-> achieve the goal of tomorrow faster, that is to achieve the goal of the next
-> year faster and also safer...
+> As developers, it's our responsability to write clean code... that isn't about
+> achieving the goal of tomorrow faster, that is about achieving the goal of the
+> next year faster and safer...
 
 Have you ever asked yourself what your manager expects from you? Would you guess
 short time result or long time result?
@@ -122,10 +120,10 @@ bad code just going along with it...
 
 I do have a real case where we've spent more time in the begining to achieve
 well parity dev-prod environments, completely isolated database for each running
-instance, end-to-end tests for the hole application, feature and unit tests for
-each codebase, automated deployment, hexagonal archtecture... well... a lot of
-themes which are unreachable and philosophical for many... a lot of bullshit for
-them...
+instance of the project, end-to-end tests for the hole application, feature and
+unit tests for each codebase, automated deployment, hexagonal archtecture...
+well... a lot of themes which are unreachable and philosophical for many out
+there... just bullshit for them...
 
 {{ 'TDD chaos-vs-time graph' | post_image }}
 
@@ -136,9 +134,9 @@ anytime. New features are easy to add and the old ones easy to change... that
 are the TDD benefits... that is an agile team!
 
 > We should fight against bad code and always do our best. There is only
-> one error: not to try it... :)
+> one error: not to try...
 
-Here are the referneces:
+Here are some referneces:
 
 * Robert C Martin, 2008. [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 * Nat Pryce; Steve Freeman, 2009. [Growing Object-Oriented Software, Guided by Tests](https://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627)
