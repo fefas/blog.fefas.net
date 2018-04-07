@@ -4,6 +4,7 @@ permalink: /:title
 
 title: Clean Code, bullshit or common sense?
 image: Washing bunch of dirty dishes
+excerpt: "Bob started to work at a new company..."
 ---
 
 ## Common story
