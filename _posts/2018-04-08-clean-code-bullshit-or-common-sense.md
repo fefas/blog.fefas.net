@@ -118,7 +118,7 @@ the bad code just going along with it...
 
 ## What does my experience say?
 
-I do have a real case where we've spent more time in the begining to achieve
+I do have a real case where we've spent more time in the beginning to achieve
 well parity dev-prod environments, completely isolated database for each running
 instance of the project, end-to-end tests for the whole application, feature and
 unit tests for each codebase, automated deployment, hexagonal architecture...
@@ -136,7 +136,7 @@ are the TDD benefits... that is an agile team!
 > We should fight against bad code and always do our best. There is only
 > one error: not to try...
 
-Here are some referneces:
+Here are some references:
 
 * Robert C Martin, 2008. [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 * Nat Pryce; Steve Freeman, 2009. [Growing Object-Oriented Software, Guided by Tests](https://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627)
