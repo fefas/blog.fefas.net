@@ -12,7 +12,7 @@ devtoId: "tdd-is-an-ethical-matter-19h4"
 
 ## My first talk
 
-Some months ago I gave my first talk: "An Introduction to TDD".  I started it
+Some months ago I gave my first talk: "An Introduction to TDD". I started it
 telling about my personal motivation of adopting this practice daily. Therefor I
 cited how the development process is a waste of time when we don't have
 something helping us to focus on the requirements or guiding us to the next

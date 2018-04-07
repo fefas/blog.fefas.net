@@ -23,10 +23,9 @@ author:
         devto: https://dev.to/fefas
         medium: https://medium.com/@fefas
 
-googleAnalyticsId: UA-53252365-5
-
 timezone: America/Sao_Paulo
 encoding: UTF-8
+googleAnalyticsId: UA-53252365-5
 
 plugins:
     - jekyll-sitemap
