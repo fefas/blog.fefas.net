@@ -20,7 +20,7 @@ company any more as well as the first developers.
 What should be called the domain was always very coupled to the infrastructure
 concerns... many classes had more than one thousand lines... methods had so many
 if statements creating so many paths to go through... namespaces 10 levels
-deep... a large usage of classes extensions..
+deep... a large usage of classes extensions...
 
 Almost every task would be to solve a bug. Some of them were created long time
 ago and others were introduced recently by a new fix. Trying to investigate the
@@ -35,13 +35,13 @@ deciding to update some value because it was wrong somehow causing a bug... the
 classes didn't validate themselves... there were getters and setters
 everywhere...
 
-_He was experiencing bad code.._
+_He was experiencing bad code..._
 
 {{ 'Washing bunch of dirty dishes' | post_image }}
 
 ## Why does it happen so commonly?
 
-Let's start clarifying something: please, don't get me wrong, I don't want to
+Let's start clarifying something: please, don't get me wrong! I don't want to
 say simply the code is a $#@& and to blame developers or companies, because it
 won't lead us to anything. That is true, we do have a lot of unprofessional
 developers, but just blaming isn't the point and we have to consider a broader
@@ -49,7 +49,7 @@ scenario to get deeper.
 
 So, why does it happen? Why are we always wading?
 
-There are many factors that contribute to it... let's picture a company growing,
+There are many factors that contribute to it. Let's picture a company growing,
 hiring more employees to grow faster, new developers come in, old developers
 leave, the dynamic business changes the requirements quite constantly, the
 communication between IT and business has gaps, developers are so focused to
@@ -63,39 +63,37 @@ what is going on, we need to lead the market...
 
 > I could summarize it as the result of _rush and no study_.
 
-Given that scenario, the output bad code is at least compreensive...
-unfortunatelly our world isn't a nice place sometimes... we have to deal with
-that reallity...
+Given that scenario, the output bad code is at least compreensive. Our world
+isn't a nice place sometimes and we have to deal with this reallity.
 
 ## What is the point then?
 
-I didn't bring you here to give a "because-answer"... anyone working for few
-years can guess it...
+I haven't brought you here to give an _easy-solution-answer_, because it simply
+doesn't exist.
 
 My goal with this post is to reply the person who has that canned answer when
-developers complain about the bad code: _Look... the system works and makes
-money to the company. That is what matters and the developers are paid to
-mantain it_.
+developers complain about bad code: _Look... the system works and makes money to
+the company. That is what matters and the developers are paid to mantain it_.
 
-Okay... I see the point... I understand the message "the most important thing is
-a running software". It sounds like magic and can confort us, developers.
-However, we still have a big problem there...
+Okay... I see the point and I agree with "the most valuable thing is a running
+software". It sounds like magic and can confort us, developers. However, we
+still have a big problem there.
 
 Is it really a running software valuable?
 
 A company which highly depends on technology to be running and wants to be
-innovative will never achieve its goals when software turns a maintanace issue
-instead of pushing up the business. Coming back to the Bob's situation, it is
-almost impossible to add or change behaviors of the application. How would be
-possible to delivery a new feature which would change the business workflow
+innovative will never achieve its goals when software turns into a maintanace
+issue instead of pushing up the business. Coming back to the Bob's situation,
+it's almost impossible to add or change behaviors of the application. How would
+be possible to delivery a new feature which would change the business workflow
 without breaking anything else? The risk is too high, the unknown side effects
 could be catastrophic and, in this way, the company is trying to survive instead
-of being innovative... it's just brute force... the competition is out there
+of being innovative... it's now just brute force... the competition is out there
 rising up.
 
-It's hard for me to see the value being generated given this scenario...
+For me, it's hard to see the value being generated given this scenario.
 
-> System making money today doesn't mean system still making money in the
+> Software making money today doesn't mean software still making money in the
 > future.
 
 Bad code can break established companies and make startups die early... **it
@@ -113,8 +111,8 @@ craft, let's learn how to manage the rush!
 Have you ever asked yourself what your manager expects from you? Would you guess
 short time result or long time result?
 
-I know, I know... the perfection isn't reachable... sometimes we have to work on
-urgent issues... nevertheless my point is we shouldn't conform ourselves to the
+I know, I know... the perfection isn't reachable... sometimes we do have to work
+on urgent issues. Nevertheless my point is we shouldn't conform ourselves to the
 bad code just going along with it...
 
 ## What does my experience say?
