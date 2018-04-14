@@ -1,0 +1,2 @@
+# In the past, posts were prefixed by /posts
+/posts/* /:splat 301
