@@ -1,5 +1,5 @@
 ---
-layout: common
+layout: base
 
 title: Contents of Authors Content
 permalink: /contents-of-other-authors
