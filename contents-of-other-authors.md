@@ -1,25 +1,22 @@
 ---
 layout: common
 
-title: Other Authors Content
-permalink: /other-authors-content
+title: Contents of Authors Content
+permalink: /contents-of-other-authors
 ---
 
 # {{ page.title }}
 
 Here is a list of content created by other authors which I really enjoyed:
 
-> I keep it as a self-storage, in the way it's easily find something I've read
-> in the past, and because someone can find something interesting.
-
 ## Not technical
 
-{% for content in site.data.other-authors-content.not-tech %}
+{% for content in site.data.contents-of-other-authors.not-tech %}
   * [{{ content.title }}]({{ content.link }})<span class="other-author">{{ content.author }}</span>
 {% endfor %}
 
 ## Technical
 
-{% for content in site.data.other-authors-content.tech %}
+{% for content in site.data.contents-of-other-authors.tech %}
   * [{{ content.title }}]({{ content.link }})<span class="other-author">{{ content.author }}</span>
 {% endfor %}

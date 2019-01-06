@@ -32,6 +32,6 @@ You can find me on
   * [{{ post.title }}]({{ post.url }}) <span class="post-date">{{ post.date | date: '%Y %b %d' }}</span>
 {% endfor %}
 
-## More...
+## Further content
 
-- [Content created by other authros with I really enjoyed](/other-authors-content);
+- [Contents from other authors](/contents-of-other-authors)
