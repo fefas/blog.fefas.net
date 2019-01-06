@@ -1,6 +1,5 @@
 ---
-layout: common
-
+layout: base
 title: Felipe Martins fefas
 permalink: /
 ---
