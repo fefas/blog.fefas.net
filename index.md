@@ -31,3 +31,7 @@ You can find me on
 {% for post in site.posts %}
   * [{{ post.title }}]({{ post.url }}) <span class="post-date">{{ post.date | date: '%Y %b %d' }}</span>
 {% endfor %}
+
+## Further content
+
+- [Contents from other authors](/contents-of-other-authors)

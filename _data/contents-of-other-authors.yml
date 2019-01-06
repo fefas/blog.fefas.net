@@ -1,0 +1,45 @@
+not-tech:
+    - title: How quitting my corporate job for my startup dream f*cked my life up
+      author: Ali Mese
+      link: https://medium.com/swlh/how-quitting-my-corporate-job-for-my-startup-dream-f-cked-my-life-up-3b6b3e29b318
+
+    - title: 'Hire slowly, grow slowly: how we grew from 1 to 100 employees'
+      author: Aytekin Tank
+      link: https://medium.com/swlh/hire-slowly-grow-slowly-how-we-grew-from-1-to-100-employees-1ce1e2af614c
+
+    - title: '‘No Asshole’ Rule: Why Life’s Too Short To Work With Them'
+      author:  Anthony Bourdain
+      link: https://dariusforoux.com/the-no-asshole-rule/
+
+    - title: How To Be A Leader That Inspires People To Change
+      author:  Anthony Bourdain
+      link: https://dariusforoux.com/leader/
+
+    - title: The evolution of trust [game]
+      author: Nicky Case
+      link: https://ncase.me/trust/
+
+tech:
+    - title: Unlearning toxic behaviors in a code review culture
+      author: Sandya Sankarram
+      link: https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c
+
+    - title: How strong techies destroy startups, and how it can be avoided
+      author: Gadi Evron
+      link: https://medium.com/swlh/how-strong-techies-destroy-startups-and-how-it-can-be-avoided-b633c6a721d9
+
+    - title: $PHP = sh*t;
+      author: Simon Yousoufov
+      link: https://medium.com/fuzz/php-a0d0b1d365d8
+
+    - title: Value Objects Like a Pro
+      author: Nicolò Pignatelli
+      link: https://hackernoon.com/value-objects-like-a-pro-f1bfc1548c72
+
+    - title: 'Para ontem: carregando sites mais rapidamente'
+      author:  Thiago Ayub
+      link: https://www.slideshare.net/ThiagoAyub/para-ontem-carregando-sites-mais-rapidamente
+
+    - title: I learned to code, build a web app [...] in 2 months
+      author: Andrey Azimov
+      link: https://medium.com/@AndreyAzimov/i-learned-to-code-and-build-a-web-app-in-2-months-da8f2932c139
