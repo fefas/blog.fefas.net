@@ -6,16 +6,12 @@ permalink: /
 
 # {{ site.author.name }} <span class="nickname">{{ site.author.nickname }}</span>
 
-Hello, World! My name is {{ site.author.name }}, aka <span class="nickname"> {{
-site.author.nickname }}</span>, and I'm a Clean Coder and TDD evangelist who
+Hello, world! My name is {{ site.author.name }}, aka <span class="nickname"> {{
+site.author.nickname }}</span>. I'm a Clean Coder and TDD evangelist which
 delivers software ASAP (As Simple As Possible).
 
-My personal goal is to improve peoples' lives through my tech skills while
-contributing to open source projects and working at companies engaged in
-creating innovative solutions.
-
-This blog aims to be a space where I can publish contents that are imporant to
-me and may be also useful for others developers.
+This web-blog is a space where I share my ideas and experience. I hope this
+content may be useful for other developers.
 
 You can find me on
   [github]({{ site.author.links.github }}),
