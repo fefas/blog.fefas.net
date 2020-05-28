@@ -21,7 +21,7 @@ content.. for sure, more than one post.
 Why that? Two main reasons:
 
 1. Theoretical stuff must be defined
-2. Growing a software is an iteract learning-process.
+2. Growing a software is an iteract learning-process
 
 The idea is to create a serie of posts within I want to share a step-by-step how
 testing can guide the code and let the design to come up. This serie, which I
