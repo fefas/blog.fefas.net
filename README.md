@@ -14,7 +14,7 @@ content (the posts and created content), two licenses are needed:
 Docker is required for local development:
 
 ```shell
-$ docker-compose up --build
+$ make up
 ```
 
 Open `localhost` in your favorite browser :)
