@@ -11,7 +11,7 @@ site.author.nickname }}</span>. I'm a Clean Coder and TDD evangelist which
 delivers software ASAP (As Simple As Possible).
 
 This web-blog is a space where I share my ideas and experience. I hope this
-content may be useful for other developers.
+content may be useful for you.
 
 You can find me on
   [github]({{ site.author.links.github }}),
