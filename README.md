@@ -1,3 +1,5 @@
+[![Netlify Status][Netlify Status Image]][Netlify Status Link]
+
 This is the source code of my personal web blog: https://blog.fefas.net.
 
 # License
@@ -18,3 +20,6 @@ $ make up
 ```
 
 Open `localhost` in your favorite browser :)
+
+[Netlify Status Link]: https://app.netlify.com/sites/fefas-blog/deploys
+[Netlify Status Image]: https://api.netlify.com/api/v1/badges/704d5139-5ddf-4215-8082-434ed5b7f239/deploy-status
