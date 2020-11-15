@@ -25,7 +25,7 @@ author:
 
 timezone: America/Sao_Paulo
 encoding: UTF-8
-googleAnalyticsId: UA-53252365-5
+googleAnalyticsId: G-RFC28XS8YQ
 
 plugins:
     - jekyll-sitemap
