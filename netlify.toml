@@ -1,6 +1,6 @@
 [build]
   publish = "_site/"
-  command = "echo 'url: '$DEPLOY_PRIME_URL >> _config_dev.yml && jekyll build --config '_config.yml,_config_dev.yml' --future"
+  command = "echo 'url: '$DEPLOY_PRIME_URL >> _config_dev.yml && jekyll build --config '_config.yml,_config_dev.yml' --future --trace --watch --unpublished"
 
 [context.production]
   command = "jekyll build --config '_config.yml' --future"
