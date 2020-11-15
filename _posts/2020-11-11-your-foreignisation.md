@@ -3,15 +3,14 @@ layout: post
 permalink: /:title
 
 title: Your Foreignisation
-image: Image
-image: Horizon
+image: Van Travelling
 excerpt:
   if you're a professional and have left your country of birth for working
   somewhere else, you've experienced your foreignisation.
 
 ---
 
-{{ 'Image' | post_image }}
+{{ 'Van Travelling' | post_image }}
 
 ## What is that?
 
