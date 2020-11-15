@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  jekyll:
+  blog:
     image: fefas/blog-dev
     build:
       context: ./
