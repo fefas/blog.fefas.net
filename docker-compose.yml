@@ -9,4 +9,4 @@ services:
     ports:
     - 80:80
     volumes:
-    - ./:/usr/src/
+    - ./src:/usr/src/
