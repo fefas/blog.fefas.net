@@ -6,8 +6,8 @@ title: TDD is an ethical matter
 image: Scream
 excerpt: "Some months ago I gave my first talk: An Introduction to TDD"
 
-mediumId: "tdd-is-an-ethical-matter-17b8ae415fb2"
-devtoId: "tdd-is-an-ethical-matter-19h4"
+mediumId: tdd-is-an-ethical-matter-17b8ae415fb2
+devtoId: tdd-is-an-ethical-matter-19h4
 ---
 
 ## My first talk

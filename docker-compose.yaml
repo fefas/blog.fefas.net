@@ -1,12 +1,12 @@
-version: "3"
+version: '3'
 
 services:
   blog:
-    image: fefas/blog-dev
+    image: fefas/dev/blog
     build:
       context: ./
       dockerfile: Dockerfile
     ports:
-    - 80:80
+    - 8080:80
     volumes:
-    - ./src:/usr/src/
+    - ./:/usr/local/site/

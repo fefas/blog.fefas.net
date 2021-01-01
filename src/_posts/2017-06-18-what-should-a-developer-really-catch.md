@@ -8,8 +8,8 @@ excerpt:
   In my first post I would like to write about something that isn't found so
   often on the internet and most ~~experienced~~ developers are missing.
 
-mediumId: "what-should-a-developer-really-catch-dbd250233a9e"
-devtoId: "what-should-a-developer-really-catch-1a6j"
+mediumId: what-should-a-developer-really-catch-dbd250233a9e
+devtoId: what-should-a-developer-really-catch-1a6j
 ---
 
 In my first post I would like to write about something that isn't found so often

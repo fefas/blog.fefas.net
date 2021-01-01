@@ -1,11 +1,12 @@
-FROM ruby:2.3
+FROM ruby:2.3.6
 
-WORKDIR /usr/src
+WORKDIR /usr/local/site
+ENV JEKYLL_DESTINATION /var/www
 
-COPY ./Gemfile* /usr/src/
+COPY ./Gemfile* /usr/local/site/
 RUN bundle install
-COPY ./src/ /usr/src/
+COPY ./ /usr/local/site/
 
-CMD ["jekyll", "serve", "--trace", "--watch", "--unpublished", "--port", "80", "--host", "0.0.0.0", "--config", "_config.yml,_config_dev.yml"]
+CMD ["./bin/jekyll-serve"]
 
 EXPOSE 80
