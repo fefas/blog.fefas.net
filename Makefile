@@ -1,3 +1,6 @@
+status:
+	@docker-compose ps
+
 up:
 	@rm -rf ./.jekyll-cache/
 	@docker-compose up -d --build --remove-orphans
