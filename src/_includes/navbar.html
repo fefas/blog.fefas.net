@@ -1,14 +1,18 @@
+{% if page.url != '/' %}
 <nav>
-  {% if page.url != '/' %}
   <a href="/">&lt;&lt; Home</a>
   <a href="https://twitter.com/share">Tweet it</a>
-  {% endif %}
 
   {% if page.mediumId %}
-  <a href="{{ site.author.links.medium }}/{{ page.mediumId }}">Read on Medium</a>
+  <a
+    target="_blank"
+    href="{{ site.author.links.medium }}/{{ page.mediumId }}">Read on Medium</a>
   {% endif %}
 
   {% if page.devtoId %}
-  <a href="{{ site.author.links.devto }}/{{ page.devtoId }}">Read on Dev.to</a>
+  <a
+    target="_blank"
+    href="{{ site.author.links.devto }}/{{ page.devtoId }}">Read on Dev.to</a>
   {% endif %}
 </nav>
+{% endif %}

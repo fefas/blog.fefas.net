@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+jekyll serve \
+    --trace \
+    --watch \
+    --unpublished \
+    --port 80 \
+    --host 0.0.0.0 \
+    --source ./src \
+    --destination $JEKYLL_DESTINATION \
+    --config ./src/_config.yml
+

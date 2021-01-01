@@ -1,47 +1,35 @@
 url: https://blog.fefas.dev
 description:
-    Blog of the software developer Felipe Martins, aka fefas, with content that
-    may help others developers to work better.
+  Blog of the software developer Felipe Martins, aka fefas, with content that
+  may help others developers to work better.
 
 timezone: Europe/Berlin
 encoding: UTF-8
 googleAnalyticsId: G-RFC28XS8YQ
 
 links:
-    sourceCode: https://github.com/fefas/blog
-    licenses:
-        content: https://creativecommons.org/licenses/by-sa/4.0
-        sourceCode: https://github.com/fefas/blog/blob/master/LICENSE
+  sourceCode: https://github.com/fefas/blog
+  licenses:
+    content: https://creativecommons.org/licenses/by-sa/4.0
+    sourceCode: https://github.com/fefas/blog/blob/master/LICENSE
 
 author:
-    name: Felipe Martins
-    nickname: fefas
-    twitterNickname: ooofefas
-    email: public@fefas.dev
+  name: Felipe Martins
+  nickname: fefas
+  twitterNickname: ooofefas
+  email: mail@fefas.dev
 
-    links:
-        github: https://github.com/fefas
-        twitter: https://twitter.com/ooofefas
-        stackOverflow: https://stackoverflow.com/users/4259675/felipe-martins
-        linkedin: https://br.linkedin.com/in/fefas
-        devto: https://dev.to/fefas
-        medium: https://medium.com/@fefas
+  links:
+    github: https://github.com/fefas
+    twitter: https://twitter.com/ooofefas
+    stackOverflow: https://stackoverflow.com/users/4259675/felipe-martins
+    linkedin: https://br.linkedin.com/in/fefas
+    devto: https://dev.to/fefas
+    medium: https://fefas.medium.com
 
 plugins:
-    - jekyll-sitemap
-    - jekyll-feed
+- jekyll-sitemap
+- jekyll-feed
 
 sass:
-    style: compressed
-
-include:
-    - _redirects
-
-exclude:
-    - Dockerfile.dev
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - netlify.toml
-    - README.md
-    - stack-dev.yml
+  style: compressed
