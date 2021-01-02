@@ -4,6 +4,7 @@ jekyll serve \
     --trace \
     --watch \
     --unpublished \
+    --future \
     --port 80 \
     --host 0.0.0.0 \
     --source ./src \
