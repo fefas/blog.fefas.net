@@ -5,8 +5,7 @@ permalink: /:title
 title: Your Foreignisation
 image: Van Travelling
 excerpt:
-  if you're a professional and have left your country of birth for working
-  somewhere else, you've experienced your foreignisation.
+  if you have left your country of birth, you've suffered your foreignisation.
 
 published: false
 ---
