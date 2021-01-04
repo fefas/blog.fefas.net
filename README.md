@@ -1,6 +1,6 @@
 [![Netlify Status][Netlify Status Image]][Netlify Status Link]
 
-This is the source code of my personal web blog: https://blog.fefas.net.
+This is the source code of my personal web blog: https://blog.fefas.dev.
 
 # Development
 
