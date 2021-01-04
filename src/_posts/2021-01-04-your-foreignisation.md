@@ -6,6 +6,9 @@ title: Your Foreignisation
 image: Van Travelling
 excerpt:
   if you have left your country of birth, you've suffered your foreignisation.
+
+mediumId: your-foreignisation-c6dca98160f8
+devtoId: your-foreignisation-3ngm
 ---
 
 {{ 'Van Travelling' | post_image }}
