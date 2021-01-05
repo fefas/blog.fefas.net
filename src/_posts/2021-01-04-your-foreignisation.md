@@ -121,8 +121,7 @@ Each time I am back in Brazil, I am happy and relieved, I feel just back home...
 but not really. After some days I start missing my place, my home. A friend of
 mine which has a very particular path once told me:
 
-> What I have here, you don't have there. What you don't have here, you have
-> there.
+> What I have here, I don't have there. What I don't have here, I have there.
 
 ## Is moving abroad that bad?
 
