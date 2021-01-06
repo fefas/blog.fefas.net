@@ -1,13 +1,19 @@
-function toggleDarkTheme() {
+function toggleDarkMode(doToggle) {
     var bodyClasses = document.body.classList;
     var darkThemeClass = 'dark';
 
-    bodyClasses.contains(darkThemeClass)
-        ? bodyClasses.remove(darkThemeClass)
-        : bodyClasses.add(darkThemeClass);
+    doToggle ? bodyClasses.toggle(darkThemeClass) : false;
 }
 
 document.addEventListener("keyup", function(event) {
     var dKeyCode = 68;
-    event.keyCode === dKeyCode ? toggleDarkTheme() : false;
+    toggleDarkMode(event.keyCode === dKeyCode);
 });
+
+window.onload = function() {
+    var darkModeEnabled =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+     toggleDarkMode(darkModeEnabled);
+}
