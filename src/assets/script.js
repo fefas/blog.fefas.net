@@ -10,7 +10,7 @@ document.addEventListener("keyup", function(event) {
     toggleDarkMode(event.keyCode === dKeyCode);
 });
 
-window.onload = function() {
+function initDarkMode() {
     var darkModeEnabled =
         window.matchMedia &&
         window.matchMedia('(prefers-color-scheme: dark)').matches;
