@@ -5,10 +5,15 @@ $no-margin: 0
 $margin-to-center: 0 auto
 $no-padding: 0
 
+$background-color: #FFF
+$background-dark-color: #181A1B
+
 $font-family: 'Roboto Mono', monospace
 $font-size: 16px
 $font-color: #333
-$font-color-subtle: #bbb
+$font-dark-color: rgb(200, 195, 188)
+$font-color-subtle: #BBB
+$font-dark-color-subtle: #BEB7AE
 $font-weight-normal: 300
 $font-weight-bold: 500
 
@@ -19,16 +24,21 @@ $paragraph-margin: $paragraph-margin-top 0 $paragraph-margin-bottom 0
 $strong-font-weight: $font-weight-bold
 
 $link-font-color: #33c
+$link-font-dark-color: #5087DC
 $link-text-decoration: none
 $link-hover-text-decoration: underline
 $link-hover-cursor: pointer
 
 $blockquote-font-color: #888
 $blockquote-link-color: #333
-$blockquote-background-color: #f8f8f8
+$blockquote-background-color: #F8F8F8
+$blockquote-font-dark-color: #9F9487
+$blockquote-link-dark-color: #C9C3BB
+$blockquote-background-dark-color: #1C1E1F
 $blockquote-margin: $paragraph-margin
 $blockquote-padding: 0.5 * $font-size 0.5 * $font-size 0.5 * $font-size 1.5 * $font-size
-$blockquote-border-left: 4px solid #ddd
+$blockquote-border-left: 4px solid #DDD
+$blockquote-border-dark-left: 4px solid #393E41
 $blockquote-paragraph-between-margin: $font-size
 
 $hX-margin-top: 1.5 * $font-size
@@ -56,11 +66,13 @@ $content-list-paragraph-display: initial
 $content-list-post-date-float: right
 
 $post-page-nav-link-color: $font-color
+$post-page-nav-link-dark-color: $font-dark-color
 $post-page-nav-link-margin: $font-size
 $post-page-nav-link-before-font-size: $font-size
 $post-page-nav-link-before-string: "> "
 
 $footer-font-color: $font-color-subtle
+$footer-font-dark-color: $font-dark-color-subtle
 $footer-margin-top: 2 * $font-size
 $footer-padding-bottom: 2 * $font-size
 $footer-text-align: center
@@ -87,6 +99,33 @@ body
   font-size: $font-size
   font-weight: $font-weight-normal
   color: $font-color
+
+  background-color: $background-color
+
+body.dark
+  color: $font-dark-color
+  background-color: $background-dark-color
+
+  a
+    color: $link-font-dark-color
+
+  nav
+    a, a:hover, a:visited
+      color: $post-page-nav-link-dark-color
+
+  blockquote
+    color: $blockquote-font-dark-color
+    background: $blockquote-background-dark-color
+    border-left: $blockquote-border-dark-left
+
+    a, a:hover, a:visited
+      color: $post-page-nav-link-dark-color
+
+  footer
+    color: $footer-font-dark-color
+
+    a, a:hover, a:visited
+      color: $footer-font-dark-color
 
 h1, h2, h3, h4, h5, h6
   margin-top: $hX-margin-top
